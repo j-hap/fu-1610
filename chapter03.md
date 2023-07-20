@@ -91,7 +91,8 @@ Gewinn anpassen.
 
 ### Was ist ein "Spiel bei Risiko"?
 
-Kein Spieler weiß wie der andere entscheidet und muss abschätzen, was passiert.
+Kein Spieler weiß wie der andere entscheidet und muss nur entsprechend seiner eigenen Mentalität
+eine Strategie wählen.
 
 ### Welche Entscheidungsstrategien hängen nur von der Mentalität des einen Spielers ab?
 
