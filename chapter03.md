@@ -178,7 +178,7 @@ Strategie des Ausgangsproblems.
 
 ### Was kann dazu führen, dass ein rational zu wählender Gleichgewichtspunkt nicht gewählt wird?
 
-Rationale Entscheidungen gehen davon aus, dass beide Spieler rational Handeln. Stellt ein Spieler
+Rationale Entscheidungen gehen davon aus, dass beide Spieler rational handeln. Stellt ein Spieler
 die Rationalität des Gegenspielers in Frage, können trotz eines offensichtlich optimalen
 Gleichgewichts konservative Strategien gewählt werden, bei denen ein Abweichen des Gegenspielern für
 den Spieler selbst zu nur geringen Verlusten führt.
