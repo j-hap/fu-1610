@@ -6,7 +6,7 @@ recall: header
 
 die Simulation von Straßenverkehr durch Abbildung jedes einzelnen Verkehrsteilnehmers
 
-### Was zeichnet Makroskopische Verkehrsimulation aus?
+### Was zeichnet makroskopische Verkehrsimulation aus?
 
 kollektive Gesamtdynamik wird auf Basis der Simulation aller individuellen Verkehrteilnehmer
 ermittelt
@@ -176,7 +176,7 @@ f_{max} = \frac{v}{v+1} \frac{\mathrm{Fzg}}{{s}} $$
 
 ### Was sind "Deadlocks" bei der Modellierung von Kreuzungen?
 
-in der realität eher selten eintretender Fall, dass an einer ungeregelten Kreuzung aus allen
+in der Realität eher selten eintretender Fall, dass an einer ungeregelten Kreuzung aus allen
 Richtungen ein Fahrzeug wartet
 
 ### Was ist das "Vier-Phasen-Modell" bei der Modellierung von Kreuzungen?
