@@ -138,7 +138,8 @@ Stau
 
 ### Was ist der "Trödelfaktor" im Nagel-Schreckenberg-Modell?
 
-stochastische Erweiterung, die Fahrzeuge zufällig um 1 abbremsen lässt
+stochastische Erweiterung, die Fahrzeuge zufällig um 1 von der Maximalgeschwindigkeit abbremsen
+lässt
 
 ### Was repräsentiert der Trödelfaktor im im Nagel-Schreckenberg-Modell?
 
@@ -189,7 +190,7 @@ Grünphase für Linksabbieger
 
 zirkuläre Streckenabschnitte mit Abzweigungen nach rechts
 
-### Wie kann eine ungeregelte Kreuzung im Nagel-Schreckenberg-Modell modelliert werden?
+### Wie kann eine ungeregelte Kreuzung im Nagel-Schreckenberg-Modell modelliert werden, um einen Deadlock zu vermeiden?
 
 - Vier-Phasen-Modell
 - Mini-Kreisverkehr
