@@ -119,8 +119,8 @@ Anzahl der freien Zellen zwischen zwei Fahrzeugen
 ### Wie lautet der Algorithmus zur Berechnung des nächsten Zeitschritts im Nagel-Schreckenberg-Modell?
 
 Für alle Fahrzeuge parallel:
-1. Beschleunigen: $v_i = \min\{v_i+1, v_{max}\}$
-2. Bremsen: $v_i = \min\{v_i, d(i, i+1)\}$, wobei $d(i, j)$ der Abstand zum Vordermann ist
+1. Beschleunigen: $v_i = \min \lbrace v_i+1, v_{max}\rbrace$
+2. Bremsen: $v_i = \min \lbrace v_i, d(i, i+1) \rbrace$, wobei $d(i, j)$ der Abstand zum Vordermann ist
 3. Bewegen: jedes Fahrzeug $i$ bewegt sich $v_i$ Zellen vorwärts
 
 ### Was ist eine "periodische Randbedingung"?
@@ -152,7 +152,7 @@ lässt
 ### Wie wird der Tödelfaktor im Algorithmus zur Berechnung des nächsten Zeitschritts im Nagel-Schreckenberg-Modell eingefügt?
 
 Zwischen Bremsen und Bewegen wird der Punkt  
-Trödeln: $v_i = \max\{v_i - 1, 0\}$ mit Wahrscheinlichkeit $0 < p < 1$  
+Trödeln: $v_i = \max \lbrace v_i - 1, 0 \rbrace$ mit Wahrscheinlichkeit $0 < p < 1$  
 eingefügt.
 
 ### Mit welcher Durchschnittsgeschwindigkeit bewegen sich die Fahrzeuge im Nagel-Schreckenberg-Modell mit Trödelfaktor in der Freiflussphase?
