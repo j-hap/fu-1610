@@ -231,11 +231,11 @@ Beobachtungen
 1. Knoten mit geringsten Gesamtkosten aus R entnehmen und zum aktiven Knoten $a$ machen, zur Menge
    Besuchter Knoten $B$ hinzufügen. Ist es der Zielknoten, abbrechen
 2. Gesamtkosten aller Nachbarn von $a$ über $a$ berechnen: Gesamtkosten von $a$ + Kantengewicht von
-   $a$ zum Nachbarn  
-  - Nachbar schon in R: wenn neue Kosten geringer als eingetragene, neue Kosten übernehmen und $a$
-    als Vorgänger eintragen
-  - Nachbar noch nicht in R: Nachbar in $R$ aufnehmen, Gesamtkosten zu berechneten ersetzen und $a$
-    als Vorgänger eintragen
+   $a$ zum Nachbarn
+   - Nachbar schon in R: wenn neue Kosten geringer als eingetragene, neue Kosten übernehmen und $a$
+     als Vorgänger eintragen
+   - Nachbar noch nicht in R: Nachbar in $R$ aufnehmen, Gesamtkosten zu berechneten ersetzen und
+    $a$ als Vorgänger eintragen
 
 ### Welche Laufzeitkomplexität hat der Dijkstra-Algorithmus?
 
@@ -285,4 +285,4 @@ Vergleichbar mit Multi-Agenten-Simulationen, wenn nicht alle Verkehrsteilnehmer 
 
 ### Wie fein werden Zellen im im Nagel-Schreckenberg-Modell aktuell modelliert?
 
-$\leq 30\,\mathrm{cm}$
+$\leq 30 \thinspace \mathrm{cm}$
