@@ -99,9 +99,9 @@ Damit Fahrzeuge sich nach einem Zeitschritt nicht zwischen zwei Zellen befinden
 
 ### Welcher funktionale Zusammenhang besteht zwischen der maximalen Geschwindigkeit, der Zeitschrittweite und der Zellgröße im Nagel-Schreckenberg-Modell?
 
-$$v_{max} = \frac{n_{max} \cdot L_{Zelle}}{\Delta t} $$
+$$\tilde{v}_{max} = \frac{v_{max} \cdot L_{Zelle}}{\Delta t} $$
 
-wobei $v_{max}$ die Geschwindigkeit in $\frac{\mathrm{km}}{\mathrm{h}}$ und $n_{max}$ die maximale Geschwindigkeit in Zellen pro Zeiteinheit beschreibt
+wobei $\tilde{v}_{max}$ die Geschwindigkeit in $\frac{\mathrm{km}}{\mathrm{h}}$ und $v_{max}$ die maximale Geschwindigkeit in Zellen pro Zeiteinheit beschreibt
 
 ### Was sind zentrale Modellannahmen im Nagel-Schreckenberg-Modell?
 
@@ -132,7 +132,7 @@ am linken Rand mit gleicher Geschwindigkeit wieder auftauchen
 ### Was ist die "kritische Dichte" im Nagel-Schreckenberg-Modell?
 
 die Fahrzeugdichte bei der nicht alle Fahrzeuge ihre Zelle + n Zellen vor sich zur Vergügung haben,
-um auf Maximalgeschwindigkeit zu Beschleunigen (bei $v_{max} = \frac{n \cdot L}{\Delta t}$).
+um auf Maximalgeschwindigkeit zu Beschleunigen (bei $\tilde{v}_{max} = \frac{v_{max} \cdot L}{\Delta t}$).
 
 ### Wozu führt ein Überschreiten der kritischen Dichte im Nagel-Schreckenberg-Modell?
 
@@ -158,7 +158,7 @@ eingefügt.
 ### Mit welcher Durchschnittsgeschwindigkeit bewegen sich die Fahrzeuge im Nagel-Schreckenberg-Modell mit Trödelfaktor in der Freiflussphase?
 
 $$
-\overline{v} = \frac{(n_{max} -p) \cdot L_{Zelle}}{\Delta t}
+\overline{\tilde{v}} = \frac{(v_{max} -p) \cdot L_{Zelle}}{\Delta t}
 $$
 
 ### Wie hoch ist der maximale Fluss im Nagel-Schreckenberg-Modell?
