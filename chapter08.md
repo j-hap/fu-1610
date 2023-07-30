@@ -101,6 +101,8 @@ Damit Fahrzeuge sich nach einem Zeitschritt nicht zwischen zwei Zellen befinden
 
 $$v_{max} = \frac{n_{max} \cdot L_{Zelle}}{\Delta t} $$
 
+wobei $v_{max}$ die Geschwindigkeit in $\frac{\mathrm{km}}{\mathrm{h}}$ und $n_{max}$ die maximale Geschwindigkeit in Zellen pro Zeiteinheit beschreibt
+
 ### Was sind zentrale Modellannahmen im Nagel-Schreckenberg-Modell?
 
 1. Kollisionsfreiheit
