@@ -157,12 +157,16 @@ eingefügt.
 
 ### Mit welcher Durchschnittsgeschwindigkeit bewegen sich die Fahrzeuge im Nagel-Schreckenberg-Modell mit Trödelfaktor in der Freiflussphase?
 
-$$ \overline{v} = \frac{(n_{max} -p) \cdot L+{Zelle}}{\Delta t} $$
+$$
+\overline{v} = \frac{(n_{max} -p) \cdot L_{Zelle}}{\Delta t}
+$$
 
 ### Wie hoch ist der maximale Fluss im Nagel-Schreckenberg-Modell?
 
-bei kritischer Dichte und damit maximaler Geschwindigkeit aller Fahrzeuge ist der maximale Fluss $$
-f_{max} = \frac{v}{v+1} \frac{\mathrm{Fzg}}{{s}} $$
+bei kritischer Dichte und damit maximaler Geschwindigkeit aller Fahrzeuge ist der maximale Fluss
+$$
+f_{max} = \frac{v}{v+1} \frac{\mathrm{Fzg}}{{s}}
+$$
 
 ### Woraus besteht ein Verkehrsgraph?
 
