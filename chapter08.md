@@ -119,7 +119,7 @@ Anzahl der freien Zellen zwischen zwei Fahrzeugen
 ### Wie lautet der Algorithmus zur Berechnung des nächsten Zeitschritts im Nagel-Schreckenberg-Modell?
 
 Für alle Fahrzeuge parallel:
-1. Beschleunigen: $v_i = \max\{v_i+1, v_{max}\}$
+1. Beschleunigen: $v_i = \min\{v_i+1, v_{max}\}$
 2. Bremsen: $v_i = \min\{v_i, d(i, i+1)\}$, wobei $d(i, j)$ der Abstand zum Vordermann ist
 3. Bewegen: jedes Fahrzeug $i$ bewegt sich $v_i$ Zellen vorwärts
 
