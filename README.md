@@ -10,4 +10,4 @@ Each chapter that is dealt with in this course has a flashcard set. Below you ca
 | 2           | 7,8      |
 | 3           | 9        |
 | 4           | 10,12    |
-| 5           | 15       |
+| 5           | 13       |
