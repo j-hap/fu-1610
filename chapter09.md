@@ -68,7 +68,7 @@ nur von der Intervalllänge abhängt
 
 Ein Poisson-Prozess zählt Ereignisse mit exponentialverteilter Zwischenankunftszeit. Die
 "Intensität" des Poisson-Prozess ist die Anzahl Sprünge (Ereignisse), die pro Zeiteinheit zu
-erwarten sind. Das entspricht genau dem Paramter der negativen Exponentialverteilung.
+erwarten sind. Das entspricht genau dem Parameter der negativen Exponentialverteilung.
 
 ### Wie lautet die Dichtefunktion der Exponentialverteilung?
 
