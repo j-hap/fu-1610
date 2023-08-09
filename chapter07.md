@@ -128,6 +128,14 @@ numerische Stabilität
 
 Ableitung des Flusses nach der Dichte, gibt an mit welcher Geschwindigkeit sich eine Störung im Verkehr ausbreitet
 
+### Wie kann die Signalgeschwindigkeit im Fundamentaldiagramm abgelesen werden?
+
+Steigung der Tangente in einem Punkt des Graphen
+
+### Wie kann die Verkehrsgeschwindigkeit im Fundamentaldiagramm abgelesen werden?
+
+Steigung der Sekante von Ursprung zu einem Punkt des Graphen
+
 ### Was ist die "Verkehrsgeschwindigkeit" der makroskopischen Verkehrssimulation?
 
 die Geschwindigkeit der Fahrzeuge, explizite Nennung, um sie von der Signalgeschwindigkeit abzusetzen
