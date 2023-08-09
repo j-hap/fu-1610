@@ -19,7 +19,7 @@ Festlegen einer Bearbeitungsreihenfolge für I/O und CPU Jobs
 
 ### Was ist ein zulässiger Zeitplan?
 
-ein Zeitplan, der alle Anforderungen bezüglich Bearbeitungsreihenfolge, Maschinenkapazitäten, etc
+ein Zeitplan, der alle Anforderungen bezüglich Bearbeitungsreihenfolge, Maschinenkapazitäten, etc.
 einhält.
 
 ### Welches Kriterium wird für die Bewertung von Zeitplänen genutzt?
