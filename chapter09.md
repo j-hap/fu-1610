@@ -135,6 +135,10 @@ verdrängende / nicht verdrängende
   - statisch: neue Aufträge mit hoher Priorität verdrängen niedrigere
   - dynamisch: Priorität kann sich über Zeit ändern
 
+### Welcher Overhead entsteht bei verdrängenden Bedienstrategien?
+
+Anhalten und Sichern des aktuellen Bearbeitungsstand des unterbrochenen Systems
+
 ### Was sind die Leistungsgrößen eines Wartesystems?
 
 - Verweilzeit $y$
