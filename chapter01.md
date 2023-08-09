@@ -80,15 +80,15 @@ Phänomen oder ein technisches System
 
 ### Wie läuft typischerweise die mathematische Modellierung / Modellbildung ab?
 
-nichtformale Beschreibung des betreffenden Modellierungsgegenstands -> semiformale Beschreibung
-(mittels Instrumentarium der Anwendungsdisziplin) -> streng formale (widerspruchsfreie, kon-
-sistente) Beschreibung (mathematisches Modell)
+1. nichtformale Beschreibung des betreffenden Modellierungsgegenstands
+2. semiformale Beschreibung (mittels Instrumentarium der Anwendungsdisziplin)
+3. streng formale (widerspruchsfreie, konsistente) Beschreibung (mathematisches Modell)
 
 ### Was sind Disziplinen in denen heute mathematische Modelle verwendet werden?
 
 - Astrophysik (Entstehung und Entwicklung des Universums)
 - Geophysik (Entstehung von Erdbeben)
-- Plasmapysik (Fusion)
+- Plasmaphysik (Fusion)
 - Proteinforschung (räumliche Struktur und Wirkung)
 - theoretische Chemie (Ursachen von Materialverhalten auf atomarer Ebene)
 - Drug Design (Entwurf von Wirkstoffen)
@@ -140,6 +140,10 @@ sistente) Beschreibung (mathematisches Modell)
 ### Worum geht es bei der Analyse von Modellen?
 
 Bewertung der Handhabbarkeit und Zweckmäßigkeit
+- lösbar
+- eindeutig
+- gut konditioniert
+- verwendbar
 
 ### Was bedeutet die "Lösbarkeit" eines Modells?
 
@@ -154,7 +158,7 @@ interessant, ob das Modell keine, eine oder mehrere Lösungen hat. Beispiele:
 Ein Modell ist eindeutig, wenn es genau eine Lösung gibt bzw. bei mehreren Lösungen eine präferierte
 Lösung gibt. Beispiele:
 - globales Minimum
-- stabile Lösung ohne Oszillation (Pseudostabile Zustände)
+- stabile Lösung ohne Oszillation (pseudostabile Zustände)
 
 ### Was bedeutet die "stetige Abhängigkeit von Eingabedaten" eines Modells?
 
