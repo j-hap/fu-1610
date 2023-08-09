@@ -141,7 +141,7 @@ Stau
 ### Was ist der "Trödelfaktor" im Nagel-Schreckenberg-Modell?
 
 stochastische Erweiterung, die Fahrzeuge zufällig um 1 von der Maximalgeschwindigkeit abbremsen
-lässt
+lässt oder um 1 zu stark abbremsen lässt
 
 ### Was repräsentiert der Trödelfaktor im im Nagel-Schreckenberg-Modell?
 
