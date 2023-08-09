@@ -139,7 +139,7 @@ verdrängende / nicht verdrängende
 
 Anhalten und Sichern des aktuellen Bearbeitungsstand des unterbrochenen Systems
 
-### Was sind die Leistungsgrößen eines Wartesystems?
+### Was sind die sieben Leistungsgrößen eines Wartesystems?
 
 - Verweilzeit $y$
 - Wartezeit $w$
