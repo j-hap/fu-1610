@@ -13,14 +13,14 @@ anderer Name für "Simulation"
 
 ### Was sind die Vorteile "virtueller Experimente"?
 
-echte Experimente
-- wegen zugrundeliegender Zeit- und Raumskalen unmöglich (Astrophysik)
-- unerwünscht (Kernwaffen, Tierversuche, ...)
-- fordern zu großen Aufwand (Teilchenbeschleuniger)
+ermöglichen Untersuchungen wo echte Experimente
+- wegen zugrundeliegender Zeit- und Raumskalen unmöglich sind (Astrophysik)
+- unerwünscht sind (Kernwaffen, Tierversuche, ...)
+- zu großen Aufwand fordern (Teilchenbeschleuniger)
 
 ### Wie steht die Simulation zu theoretischer und experimenteller Analyse eines Problems?
 
-ergänzt, ersetzt nicht
+Simulation ergänzt beides, ersetzt nicht
 
 ### Was sind die Ziele von Simulation?
 
@@ -43,15 +43,16 @@ Ablauf einer Simulation mit mehreren Teilschritten und möglichen Iterationsschl
 
 ### Was passiert im Schritt "Modellierung" der Simulationspipeline?
 
-Erstellen eines vereinfachten, geeigneten Abbilds / Ausschnitts des Betrachtungsgegenstands (Beispiele: Mehrkörpersimulation, FEM, DEM, ...)
+Erstellen eines vereinfachten, geeigneten Abbilds / Ausschnitts des Betrachtungsgegenstands
+(Beispiele: Mehrkörpersimulation, FEM, DEM, ZA, ...)
 
 ### Was passiert im Schritt "Berechnung" der Simulationspipeline?
 
-Aufbereiten des Modells, um es berechnen zu können (Diskretisierung, Solver auswählen, Algorithmen entwickeln)
+Aufbereiten des Modells, um es berechnen zu können (Diskretisierung, Algorithmen entwickeln)
 
 ### Was passiert im Schritt "Implementierung" der Simulationspipeline?
 
-Entwickelte Algorithmen werden möglichst effizient in Software umgesetzt
+entwickelte Algorithmen werden möglichst effizient in Software umgesetzt
 
 ### Was passiert im Schritt "Visualisierung" der Simulationspipeline?
 
@@ -64,12 +65,13 @@ Verlässlichkeit der eigenen Simulation zu gewährleisten. Auch Abgleich mit Exp
 
 ### Was passiert im Schritt "Einbettung" der Simulationspipeline?
 
-Die Simulation im Gesamtkontext einsetzbar machen. Dazu werden Schnittstellen definiert und umgesetzt. Beispiel: Automatische Neuberechnung der Festigkeit eines Bauteils bei geänderter Konstruktion
+Die Simulation im Gesamtkontext einsetzbar machen. Dazu werden Schnittstellen definiert und
+umgesetzt. Beispiel: Automatische Neuberechnung der Festigkeit eines Bauteils bei geänderter
+Konstruktion
 
 ### Was ist ein Modell?
 
-- (vereinfachtes) Abbild einer (partiellen) Realität
-- formale, mathematische Beschreibungen
+formale, mathematische Beschreibungen des (vereinfachten) Abbild einer (partiellen) Realität
 
 ### Was ist die mathematische Modellierung / Modellbildung?
 
@@ -78,7 +80,8 @@ Phänomen oder ein technisches System
 
 ### Wie läuft typischerweise die mathematische Modellierung / Modellbildung ab?
 
-nichtformale Beschreibung des betreffenden Modellierungsgegenstands -> semiformale Beschreibung (mittels Instrumentarium der Anwendungsdisziplin) -> streng formale (widerspruchsfreie, kon-
+nichtformale Beschreibung des betreffenden Modellierungsgegenstands -> semiformale Beschreibung
+(mittels Instrumentarium der Anwendungsdisziplin) -> streng formale (widerspruchsfreie, kon-
 sistente) Beschreibung (mathematisches Modell)
 
 ### Was sind Disziplinen in denen heute mathematische Modelle verwendet werden?
@@ -92,9 +95,12 @@ sistente) Beschreibung (mathematisches Modell)
 - Medizin (Untersuchung von Aneurismen, Optimierung von Implantaten)
 - Klimaforschung (Ozeanströme, Ozonloch)
 - Wettervorhersage
-- Automobilindustrie (Crashtest - Strukturmechanik, Tiefziehen - Strukturoptimierung, Aerodynamik / Klimatisierung - Strömungsmechanik, Schallabstrahlung - Aeroakustik, Einspritzung - Verbrennung, Fahrdynamik - Optimalsteuerung, Sensorik & Aktorik - Mechatronische Systeme)
+- Automobilindustrie (Crashtest - Strukturmechanik, Tiefziehen - Strukturoptimierung, Aerodynamik /
+  Klimatisierung - Strömungsmechanik, Schallabstrahlung - Aeroakustik, Einspritzung - Verbrennung,
+  Fahrdynamik - Optimalsteuerung, Sensorik & Aktorik - Mechatronische Systeme)
 - Halbleiterindustrie (Bauelementsimulation, Prozesssimulation, Schaltkreissimulation)
-- Nationalökonomie (Konjunkturverlauf, Wirtschafts- und Fiskalpolitik, Preisbildung) (keine Konsensmodelle)
+- Nationalökonomie (Konjunkturverlauf, Wirtschafts- und Fiskalpolitik, Preisbildung) (keine
+  Konsensmodelle)
 - Banken und Versicherungen (Bewertung von Finanzderivaten)
 - Verkehrstechnik (Staubildung, Routenplanung)
 - Versorger (Netzauslastung)
@@ -106,7 +112,7 @@ sistente) Beschreibung (mathematisches Modell)
 ### Was sind die drei zentralen Fragen der Modellierung?
 
 1. Wie kommt man zu einem geeigneten Modell?
-2. Welche Beschreibungsmittel nimmt man dafür her?
+2. Welche Beschreibungsmittel verwendet man dafür?
 3. Wie bewertet man dann anschließend die Qualität des hergeleiteten Modells?
 
 ### Wie läuft die Modellierung ab?
@@ -115,11 +121,13 @@ sistente) Beschreibung (mathematisches Modell)
   - des räumlichen und zeitlichen Rahmens der Simulation
   - der nötigen Genauigkeit (Auflösung) der Ergebnisse
 - Bewerten der Einflussgrößen (qualitativ) und das Maß des Einflusses (quantitativ)
-- Festlegen des Simulationsziels (Vorhandensein einer Lösung, irgendeine Lösung, einzige Lösung, optimale Lösung)
+- Festlegen des Simulationsziels (Vorhandensein einer Lösung, irgendeine Lösung, einzige Lösung,
+  optimale Lösung)
 
 ### Was ist das mathematische Instrumentarium für die Modellbildung?
 
 - algebraische Gleichungen / Ungleichungen
+- algebraische Strukturen (Gruppen, Ringe, endliche Körper)
 - Systeme gewöhnlicher Differentialgleichungen (nur eine Unabhängige)
 - Systeme partieller Differentialgleichungen (mehrere Unabhängige)
 - Automaten / Zustandsdiagramme
@@ -128,7 +136,6 @@ sistente) Beschreibung (mathematisches Modell)
 - regelbasierte Systeme / Fuzzy Logic
 - neuronale Netze
 - Sprachkonzepte (z.B. UML)
-- algebraische Strukturen (Gruppen, Ringe, endliche Körper)
 
 ### Worum geht es bei der Analyse von Modellen?
 
@@ -136,20 +143,22 @@ Bewertung der Handhabbarkeit und Zweckmäßigkeit
 
 ### Was bedeutet die "Lösbarkeit" eines Modells?
 
-Ein Modell ist lösbar, wenn es unter der gegebenen Fragestellung eine Antwort liefert. Hierbei ist interessant, ob das Modell keine, eine oder mehrere Lösungen hat. Beispiele:
+Ein Modell ist lösbar, wenn es unter der gegebenen Fragestellung eine Antwort liefert. Hierbei ist
+interessant, ob das Modell keine, eine oder mehrere Lösungen hat. Beispiele:
 - stationäre Grenzzustände von Populationsmodellen
-- Zyklenfreiheit des Präzedenzgraphen bei schrittweiser Auftragsbearbeitung
-- Existenz  eines Minimums bei Optimierungsproblemen
+- Zyklenfreiheit des Präzedenzgraphen bei schrittweiser Auftragsbearbeitung (Schedulung)
+- Existenz eines Minimums bei Optimierungsproblemen
 
 ### Was bedeutet die "Eindeutigkeit" eines Modells?
 
-Ein Modell ist eindeutig, wenn es genau eine Lösung gibt bzw. bei mehreren Lösungen eine präferierte Lösung gibt. Beispiele:
+Ein Modell ist eindeutig, wenn es genau eine Lösung gibt bzw. bei mehreren Lösungen eine präferierte
+Lösung gibt. Beispiele:
 - globales Minimum
 - stabile Lösung ohne Oszillation (Pseudostabile Zustände)
 
 ### Was bedeutet die "stetige Abhängigkeit von Eingabedaten" eines Modells?
 
-Führen kleine Änderungen der Eingabedaten auch nur zu kleinen Änderungen der Lösung.
+kleine Änderungen der Eingabedaten führen auch nur zu kleinen Änderungen der Lösung
 
 ### Was sind andere Begriffe für die "stetige Abhängigkeit von Eingabedaten" eines Modells?
 
@@ -193,7 +202,7 @@ Modelle, die nur mit Ganzzahlen und Zustandsübergängen arbeiten
 
 ### Was sind kontinuierliche Modelle?
 
-Modelle, die mit reellen Zahlen und allen Möglichen Zwischenzuständen arbeiten
+Modelle, die mit reellen Zahlen und allen möglichen Zwischenzuständen arbeiten
 
 ### Was sind deterministische Modelle?
 
@@ -205,14 +214,16 @@ Modelle mit zufallsbehafteten Komponenten, zum Beispiel zur Modellierung von Tur
 
 ### Was ist die "Multiskaleneigenschaft"?
 
-Beeinflussen Phänomene auf kleiner Skala (z.B. winzige Turbulenzen) das Ergebnis auf großer Skala (Strömungseigenschaften eines Containerschiffs), muss das System sehr fein berechnet werden, um korrekte Ergebnisse auf großer Skala zu erhalten. Das führt aber zu nicht tragbarem Rechenaufwand.
+Beeinflussen Phänomene auf kleiner Skala (z.B. winzige Turbulenzen) das Ergebnis auf großer Skala
+(Strömungseigenschaften eines Containerschiffs), muss das System sehr fein berechnet werden, um
+korrekte Ergebnisse auf großer Skala zu erhalten. Das führt aber zu nicht tragbarem Rechenaufwand.
 
 ### Welche Lösungsansätze gibt es zum Simulieren von Modellen?
 
 - analytische Lösung
-- heuristischer Lösungsansatz
-- direkt numerischer Ansatz
-- approximativ-numerischer Ansatz
+- heuristischer Lösungsansatz (z.B. Greedy-Algorithmus)
+- direkt numerischer Ansatz (z.B. Simplex)
+- approximativ-numerischer Ansatz (Diskretisierung und Lösung)
 
 ### Was zeichnet die "analytische Lösung" aus?
 
@@ -220,7 +231,7 @@ Beeinflussen Phänomene auf kleiner Skala (z.B. winzige Turbulenzen) das Ergebni
 - keine Vereinfachungen / Näherungen nötig
 - nur für einfache Systeme möglich
 
-### Was zeichnet den "heuristischer Lösungsansatz" aus?
+### Was zeichnet den "heuristischen Lösungsansatz" aus?
 
 - Plausibilitätsargumente führen zu Lösungsstrategien
 - in diskreter Simulation und Optimierung verwendet
@@ -237,7 +248,7 @@ Beeinflussen Phänomene auf kleiner Skala (z.B. winzige Turbulenzen) das Ergebni
 - Lösung erfolgt näherungsweise
 - kontinuierliches Problem wird diskretisiert
 
-### Was sind Kriterien zur Bewertung eines Simulationsergebnis?
+### Was sind vier Kriterien zur Bewertung eines Simulationsergebnis?
 
 - Validierung
 - Verifikation
@@ -263,8 +274,8 @@ Werden die Gleichungen richtig gelöst? (Wurde das verwendete Modell korrekt gel
 
 ### Was sind die Nachteile vom Abgleich von Simulation mit Experimenten?
 
-- leicht kleine Unterschiede zwischen Simulation und Messung
-- Bei skalierten Modellen treten manche Effekte im kleinen nicht auf
+- kleine Unterschiede zwischen Simulation und Messung entstehen leicht
+- bei skalierten Modellen treten manche Effekte im kleinen nicht auf
 - sporadische und systematische Messfehler
 
 ### Was ist Inhalt der Verifikation?
