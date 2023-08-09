@@ -286,3 +286,7 @@ Vergleichbar mit Multi-Agenten-Simulationen, wenn nicht alle Verkehrsteilnehmer 
 ### Wie fein werden Zellen im im Nagel-Schreckenberg-Modell aktuell modelliert?
 
 $\leq 30 \thinspace \mathrm{cm}$
+
+### Wie lässt sich die Modellierung des Trödelfaktors verfeinern?
+
+niedrigere Wahrscheinlichkeiten für Trödeln beim Anfahren und Beschleunigen als beim Abbremsen
