@@ -54,6 +54,12 @@ die maximale Dichte ist erreicht wenn durchschnittlich lange Fahrzeuge Stoßstan
 
 alle Fahrzeuge bewegen sich mit gleicher Geschwindigkeit und halten den gleichen Abstand ein, Geschwindigkeit, Verkehrsdichte und Fluss sind konstant
 
+### Was kann bei Annahme einer homogene Gleichgewichtsströmung in der Verkehrsimulation nicht abgebildet werden?
+
+lokale Einflüsse auf Dichte und Fluss wie
+- Lichtwechsel bei Ampeln
+- Unfälle
+
 ### Welchen Zusammenhang der drei Größen der makroskopischen Verkehrssimulation zeigen Messungen von Verkehrsströmung?
 
 Geschwindigkeit und Fluss hängen von der Dichte ab.
