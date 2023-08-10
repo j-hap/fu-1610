@@ -84,13 +84,13 @@ die Darstellung des funktionalen Zusammenhangs zwischen Fluss und Dichte, ergibt
 
 ### Was sagt das lokale Maximum im Fundamentaldiagramm der makroskopischen Verkehrssimulation aus?
 
-Der maximale Fluss $f_{max}$ wird bei optimaler Dichte $\rho_{max}$ erreicht.
+Der maximale Fluss $f_{max}$ wird bei optimaler Dichte $\rho_{opt}$ erreicht.
 
 ### Welche Bedeutung hat $\rho_{opt}$ für die Verkehrsplanung?
 
 Ziel der Verkehrsplanung muss sein dieses $\rho_{opt}$ einzustellen um maximalen Fahrzeugdurchsatz zu erreichen.
 
-### Warum wird in der Praxis für einen gegebenen Fluss $\neq f_{opt}$ meist die höhere der beiden möglichen Dichten erreicht?
+### Warum wird in der Praxis für einen gegebenen Fluss $\neq f_{max}$ meist die höhere der beiden möglichen Dichten erreicht?
 
 Verkehrsteilnehmer fahren meist zu lange zu schnell
 
