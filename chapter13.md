@@ -102,10 +102,6 @@ wird
 
 Es müssen nicht alle Partikel im Simulationsraum berücksichtigt werden. Bei Gleichverteilung der Partikel im Raum ist die Anzahl der Partikel innerhalb des Abschneideradius konstant, womit sich der Aufwand für die Kraftberechnung aller Partikel von $\mathcal{O}(n^2)$ auf $\mathcal{O}(n)$ verringert
 
-### TODO
-
-warum reduziert der abschneideradius den rechenaufwand wenn man doch die distanz zu allen anderen partikeln berechnen muss?
-
 ### Was ist das "Velocity-Störmer-Verlet-Verfahren"?
 
 ein Verfahren zweiter Ordnung zum numerischen Lösen von Differentialgleichungen
