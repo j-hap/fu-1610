@@ -17,8 +17,8 @@ bei makroskopischer Simulation implizit die Möglichkeit dazu gegeben, bei mikro
 
 ### Was sind "Fahrzeug-Folge-Modelle"?
 
-erste Ansätze zur mikroskopischen Modellierung, jeder Verkehrsteilnehmer über partielle
-Differentialgleichung modelliert
+erste Ansätze zur mikroskopischen Modellierung, bei denen jeder Verkehrsteilnehmer über partielle
+Differentialgleichung modelliert wird
 
 ### Was ist das "Nagel-Schreckenberg Modell"?
 
@@ -61,7 +61,7 @@ Der neue Zustand wird für alle Zellen parallel berechnet.
 
 John Conway - Game Of Life (1970)
 
-### Was ist ein "kartesischen zellulärer Automat"?
+### Was ist ein "kartesischer zellulärer Automat"?
 
 ein zweidimensionaler zellulärer Automat mit rechteckigen Zellen
 
@@ -98,7 +98,7 @@ Damit Fahrzeuge sich nach einem Zeitschritt nicht zwischen zwei Zellen befinden
 ### Welcher funktionale Zusammenhang besteht zwischen der maximalen Geschwindigkeit, der Zeitschrittweite und der Zellgröße im Nagel-Schreckenberg-Modell?
 
 $$\tilde{v}_{max} = \frac{v_{max} \cdot L_{Zelle}}{\Delta t} $$
-
+  
 wobei $\tilde{v}_{max}$ die Geschwindigkeit in $\frac{\mathrm{km}}{\mathrm{h}}$ und $v_{max}$ die maximale Geschwindigkeit in Zellen pro Zeiteinheit beschreibt
 
 ### Was sind zentrale Modellannahmen im Nagel-Schreckenberg-Modell?
@@ -129,8 +129,9 @@ am linken Rand mit gleicher Geschwindigkeit wieder auftauchen
 
 ### Was ist die "kritische Dichte" im Nagel-Schreckenberg-Modell?
 
-die Fahrzeugdichte bei der nicht alle Fahrzeuge ihre Zelle + n Zellen vor sich zur Vergügung haben,
-um auf Maximalgeschwindigkeit zu Beschleunigen (bei $\tilde{v}_{max} = \frac{v_{max} \cdot L}{\Delta t}$).
+die Fahrzeugdichte, bei der alle Fahrzeuge gerade genau ihre Zelle + $v_{max}$ Zellen vor sich zur
+Verfügung haben, um auf Maximalgeschwindigkeit zu beschleunigen (bei $\tilde{v}_{max} =
+\frac{v_{max} \cdot L}{\Delta t}$), bei kritischer Dichte herrscht maximaler Fluss
 
 ### Wozu führt ein Überschreiten der kritischen Dichte im Nagel-Schreckenberg-Modell?
 

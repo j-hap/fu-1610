@@ -12,7 +12,7 @@ identifizieren, die das Gesamtsystem ausbremsen oder Überkapazität des Systems
 stochastische ist wie makroskopische an Durchschnittswerten interessiert von 
 - Durchlaufzeiten
 - Wartezeiten
-
+  
 betrachtet aber wie die mikroskopische einzelne Objekte / Aufträge / Teilnehmer des Systems. Hierbei
 ist allerdings nur das Verhalten der Teilnehmer an bestimmten Punkten interessant, nicht der gesamte
 Verlauf von Start bis Ziel
@@ -255,6 +255,8 @@ $$ c_S = \frac{c_{VE}}{v_{VE}} $$
 ### Wie ergibt sich die Sättigungsfüllung eines Warteschlangennetzes?
 
 $$ f^*_S = c_S \cdot E(B_S) $$
+  
+wobei $c_S$ der Grenzdurchsatz des Systems und $E(B_S)$ der Erwartungswert der Bedienzeit ist
 
 ### Was ist ein stationären Grenzprozess?
 
@@ -392,9 +394,10 @@ Wahrscheinlichkeiten aller Zustandsübergänge
 
 ### Wie kann der stationäre Grenzzustand eines Markov-Prozesses berechnet werden?
 
-Der Grenzzustand ist Fixpunkt der Zustandsübergangsgleichung $$ P^T \pi = \pi $$ wobei $P$ die
-Transitionsmatrix und $\pi$ die Verteilung der Vektor der Zustandswahrscheinlichkeiten ist. Lösen
-des Gleichungssystems liefert den Grenzzustand, unabhängig vom Startzustand
+Der Grenzzustand ist Fixpunkt der Zustandsübergangsgleichung  
+$$ P^T \pi = \pi $$  
+wobei $P$ die Transitionsmatrix und $\pi$ die Verteilung der Vektor der Zustandswahrscheinlichkeiten
+ist. Lösen des Gleichungssystems liefert den Grenzzustand, unabhängig vom Startzustand
 
 ### Wann ist ein Wartesystem stabil?
 

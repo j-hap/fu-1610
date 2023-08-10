@@ -60,7 +60,7 @@ Geschwindigkeit und Fluss hängen von der Dichte ab.
 
 ### Was ist die Zustandsgleichung der makroskopischen Verkehrssimulation?
 
-Fluss ist das Produkt von Dichte und Geschwindigkeit $f = \rho v$
+Fluss ist das Produkt von Dichte und Geschwindigkeit $f = \rho v$ (Analog Formel von Little)
 
 ### Was sind die drei Modellbedingungen in der makroskopischen Verkehrssimulation?
 

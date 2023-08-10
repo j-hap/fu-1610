@@ -12,7 +12,7 @@ eine Person / Entität, die eine Entscheidung treffen muss
 
 ### Was ist eine "Strategie" in der Spieltheorie?
 
-Handlungen, die ein Spieler auführen kann
+Handlungen, die ein Spieler ausführen kann
 
 ### Was sind zwei bekannte Beispiele für strategische Spiele?
 
@@ -155,7 +155,7 @@ Sattelpunkt
 
 "normale" Strategien, also die vollständige Entscheidung für ein bestimmtes Vorgehen
 
-### Was sind gemischte Strategien?
+### Was sind gemischte Strategien in der Spieltheorie?
 
 Statt eine reine Strategie zu wählen, wird eine Wahrscheinlichkeit für eine Strategie gewählt. Über
 eine geeignete Wahl der Wahrscheinlichkeiten ergibt sich im Erwartungswert der Nutzenmatrix ein
@@ -167,7 +167,7 @@ gemischte Erweiterung
 
 ### Welche Vorteile bietet die mathematische Modellbildung in der Spieltheorie?
 
-- Problem aufs wesentliche reduziert -> besser analysierbar
+Problem aufs wesentliche reduziert -> besser analysierbar
 
 ### Mit welcher Tranformation der Nutzenmatrix wird die Strategie des vorsichtigen Spielers zu der des risikobereiten?
 

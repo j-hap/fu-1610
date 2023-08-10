@@ -36,7 +36,7 @@ muss, bevor $A_j$ begonnen wird.
 Bei den Aufträgen $A_i, A_j$ besagt $A_i \rightarrow A_j$, dass $A_i$ fertig bearbeitet sein muss,
 bevor $A_j$ begonnen wird.
 
-### Wie werden Präzedenzbedingungen in einem Graphen brücksichtigt?
+### Wie werden Präzedenzbedingungen in einem Graphen berücksichtigt?
 
 Jede Präzedenzbedingungen führt zu einer Kante im Graphen.
 
@@ -192,7 +192,7 @@ wenn sie zyklenfrei ist
 
 ### Wie wird eine zulässige Disjunktivkantenbelegung konstruiert?
 
-- Teilauftrag starten, dessen Vorgänger beendet ist und die benötigte Maschine frei
+- Teilauftrag starten, dessen Vorgänger beendet ist und deren benötigte Maschine frei ist
 - mehrere Kandidaten bei einer Maschine: zufällige Auswahl
 
 ### Wie wird eine optimale Disjunktivkantenbelegung gefunden?
