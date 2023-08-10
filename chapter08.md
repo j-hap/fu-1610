@@ -15,8 +15,6 @@ ermittelt
 
 bei makroskopischer Simulation implizit die Möglichkeit dazu gegeben, bei mikroskopischer nicht.
 
-### Welche Verkehrsimulation ist zur Berechnung eines komplexen Straßennetzes 
-
 ### Was sind "Fahrzeug-Folge-Modelle"?
 
 erste Ansätze zur mikroskopischen Modellierung, jeder Verkehrsteilnehmer über partielle
