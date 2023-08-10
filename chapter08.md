@@ -296,4 +296,4 @@ $\leq 30 \thinspace \mathrm{cm}$
 
 ### Wie lässt sich die Modellierung des Trödelfaktors verfeinern?
 
-niedrigere Wahrscheinlichkeiten für Trödeln beim Anfahren und Beschleunigen als beim Abbremsen
+höhere Wahrscheinlichkeiten für Trödeln beim Anfahren und Beschleunigen als beim Abbremsen
