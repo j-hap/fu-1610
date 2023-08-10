@@ -237,8 +237,16 @@ Beobachtungen
 
 ### Welche Laufzeitkomplexität hat der Dijkstra-Algorithmus?
 
-$\mathcal{O}(\vert V \vert ^2 + \vert E \vert)$ bei verketteter Liste / Array für $R$,
-$\mathcal{O}(\vert V \vert \cdot \log(V) + \vert E \vert)$ mit Fibbonaci-Heap
+- $\mathcal{O}(\vert V \vert ^2 + \vert E \vert)$ bei verketteter Liste / Array für $R$
+- $\mathcal{O}(\vert V \vert \cdot \log(V) + \vert E \vert)$ mit Fibbonaci-Heap für $R$
+
+### Welcher Zusammenhang zwischen Knoten- und Kantenanzahl kann in Verkehrsnetzen angenommen werden?
+
+$\mathcal{O}(\vert E \vert) = \mathcal{O}(\vert V \vert)$
+
+### Was ist ein guter Richtwert für das Verhältnis der Anzahl Kanten zur Anzahl Knoten in einem Verkehrsnetz?
+
+$3:1$
 
 ### Welchen Nachteil hat der Dijkstra-Algorithmus bei der Routenplanung?
 
