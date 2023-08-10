@@ -30,7 +30,8 @@ drei
 
 ### Was ist eine Iterationsfunktion?
 
-eine Funktion zur Berechnung des Zustands eines Systems, bei der der Zustand zum nächsten Zeitpunkt aus dem vorherigen iterativ berechnet wird
+eine Funktion zur Berechnung des Zustands eines Systems, bei der der Zustand zum nächsten Zeitpunkt
+aus dem vorherigen iterativ berechnet wird
 
 ### Was ist ein Fixpunkt einer Iterationsfunktion?
 
@@ -54,22 +55,24 @@ transiente Dynamik
 
 ### Was ist "asymptotischen Dynamik" eines Systems?
 
-Konvergiert ein System gegen einen Fixpunkt, verschwindet die transiente Dynamik und das System geht in ein stationäres Verhalten, die asymptotische Dynamik über. Zyklen und seltsame Attraktoren passen besser zum Begriff, da das System bei diesen noch eine echte Dynamik aufweist.
+Konvergiert ein System gegen einen Fixpunkt, verschwindet die transiente Dynamik und das System geht
+in ein stationäres Verhalten, die asymptotische Dynamik über. Zyklen und seltsame Attraktoren passen
+besser zum Begriff, da das System bei diesen noch eine echte Dynamik aufweist.
 
 ### Was ist die logistische Abbildung?
 
 eine eindimensionale Iterationsfunktion, die zur Modellierung von Populationswachstum verwendet wird
-$$
-\Phi(x) = rx(1-x)
-$$
+$$ \Phi(x) = rx(1-x) $$
 
 ### Was ist eine Bifurkation?
 
-qualitative Zustandsänderung in nichtlinearen Systemen bei Änderung eines Systemparameters
+qualitative Zustandsänderung in nichtlinearen Systemen bei Änderung eines Systemparameters, bei der
+das System von einem asymptotischen Fixpunkt zur Oszillation zwischen zwei Werten wechselt
 
 ### Was ist eine transkritische Bifurkation?
 
-tauschen bei Variation eines Systemparameters zwei Fixpunkte ihr Stabilitätsverhalten, ist das eine transkritische Bifurkation
+tauschen bei Variation eines Systemparameters zwei Fixpunkte ihr Stabilitätsverhalten, ist das eine
+transkritische Bifurkation
 
 ### Wie konstruiert man die grafische Iteration einer Iterationsfunktion?
 
@@ -82,23 +85,29 @@ tauschen bei Variation eines Systemparameters zwei Fixpunkte ihr Stabilitätsver
 
 ### Was ist eine "superkritische Gabelbifurkation"?
 
-das Systemverhalten ändert sich von der Existenz eines Fixpunktes, gegen den das System konvergiert, zu zwei Punkten zwischen denen das System oszilliert
+das Systemverhalten ändert sich von der Existenz eines Fixpunktes, gegen den das System konvergiert,
+zu zwei Punkten zwischen denen das System oszilliert
 
 ### Warum ist die superkritische Gabelbifurkation "harmlos"?
 
-zwar ändert sich das Systemverhalten, allerdings führt eine leichte Änderung des Systemparameters auch nur zu einer leichten Änderung des verhaltens, weil die beiden Oszillationspunkte aus dem vorherigen Fixpunkt entstehen und sich erst mit weiter wachsendem Systemparameter davon weg bewegen
+zwar ändert sich das Systemverhalten, allerdings führt eine leichte Änderung des Systemparameters
+auch nur zu einer leichten Änderung des verhaltens, weil die beiden Oszillationspunkte aus dem
+vorherigen Fixpunkt entstehen und sich erst mit weiter wachsendem Systemparameter davon weg bewegen
 
 ### Was ist eine "subkritische Gabelbifurkation"?
 
-das Systemverhalten ändert sich von der Existenz eines Fixpunktes, gegen den das System konvergiert, zu einem chaotischen Verhalten ohne Fixpunkte oder Oszillation
+das Systemverhalten ändert sich von der Existenz eines Fixpunktes, gegen den das System konvergiert,
+zu einem chaotischen Verhalten ohne Fixpunkte oder Oszillation
 
 ### Warum ist die subkritische Gabelbifurkation kritisch?
 
-weil sich das Systemverhalten bei Übergang des Bifurkationspunktes unerwartet verhält und kleine Änderungen zu extremen Antworten des Systems führen können
+weil sich das Systemverhalten bei Übergang des Bifurkationspunktes unerwartet verhält und kleine
+Änderungen zu extremen Antworten des Systems führen können
 
 ### Wie kann das asymptotische Verhalten einer Iterationsfunktion simuliert werden?
 
-mehrere hundert (oder mehr) Schritte simulieren, bis das transiente Verhalten abgeklungen ist, die danach auftretenden Zustände visualisieren
+mehrere hundert (oder mehr) Schritte simulieren, bis das transiente Verhalten abgeklungen ist, die
+danach auftretenden Zustände visualisieren
 
 ### Was ist ein Bifurkationsdiagramm?
 
@@ -129,11 +138,14 @@ Selbstähnlichkeit
 
 ### Wie lautet die Definition eines allgemeinen Attraktors?
 
-kleinsmögliche Menge von Zuständen aus dem Zustandsraum eines dynamischen Systems, die von allen Startzuständen erreicht wird und im stationären Verhalten des Systems nicht verlassen wird
+kleinsmögliche Menge von Zuständen aus dem Zustandsraum eines dynamischen Systems, die von allen
+Startzuständen erreicht wird und im stationären Verhalten des Systems nicht verlassen wird
 
 ### Was ist die Cantor-Menge?
 
-eine Teilmenge der rellen Zahlen des Intervalls $[0,1]$ die konstruiert wird, indem ausgehend von allen Zahlen des Intervall wiederholt das mittlere Drittel der noch vorhandenen Intervalle unendlich oft entfernt wird
+eine Teilmenge der rellen Zahlen des Intervalls $[0,1]$ die konstruiert wird, indem ausgehend von
+allen Zahlen des Intervall wiederholt das mittlere Drittel der noch vorhandenen Intervalle unendlich
+oft entfernt wird
 
 ### Wie wird die fraktale Dimension insbesondere selbstähnlicher Figuren bestimmt?
 
@@ -144,17 +156,12 @@ $\text{Skalierungsfaktor}^\text{Dimension}$
 ### Wie ergibt sich die fraktale Dimension der Cantor-Menge?
 
 Wie die Länge der Ausgangslinie verdreifacht, ergeben sich nach dem ersten Löschen des mittleren
-Drittels zwei Linien der Länge 1, genau der Ausgangslinie der unskalierten Cantor-Menge. Bei einem Skalierungsfaktor von 3, ergeben sich also zwei Cantor-Mengen.
-
-$$
-\text{Anzahl Kopien} = \text{Skalierungsfaktor}^\text{Dimension}
-$$
-
-Also 
-
-$$
-\text{Dimension} = \frac{\ln \text{Anzahl Kopien}}{\ln \text{Skalierungsfaktor}} = \frac{\ln 2}{\ln 3} = 0.63093
-$$
+Drittels zwei Linien der Länge 1, genau der Ausgangslinie der unskalierten Cantor-Menge. Bei einem
+Skalierungsfaktor von 3, ergeben sich also zwei Cantor-Mengen.
+$$ \text{Anzahl Kopien} = \text{Skalierungsfaktor}^\text{Dimension} $$
+Also
+$$ \text{Dimension} = \frac{\ln \text{Anzahl Kopien}}{\ln \text{Skalierungsfaktor}} = \frac{\ln
+2}{\ln 3} = 0.63093 $$
 
 ### Wie lautet die Definition eines seltsamen Attraktors?
 
@@ -178,7 +185,8 @@ eine Methode ein kontinuierliches System um eine Dimension zu reduzieren
 
 ### Wie wird der Poincaré-Schnitt gebildet?
 
-in einem n-dimensionalen Phasenraum, wird eine (n-1)-dimensionale Struktur plaziert und die Schnitte mit der Zustandstrajektorie (von der immer gleichen Seite) aufgenommen
+in einem n-dimensionalen Phasenraum, wird eine (n-1)-dimensionale Struktur plaziert und die Schnitte
+mit der Zustandstrajektorie (von der immer gleichen Seite) aufgenommen
 
 ### Wie ist die Periode eines kontinuierlichen dymanischen Systems definiert?
 
