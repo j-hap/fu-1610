@@ -187,9 +187,10 @@ Richtungen ein Fahrzeug wartet
 
 ### Was ist das "Vier-Phasen-Modell" bei der Modellierung von Kreuzungen?
 
-eine einfache Modellierung zur Regelung von Vorfahrt an ungeregelten Kreuzungen, die Deadlocks
-vermeidet und nur auf Basis der eigenen Abbiegepräferenz beruht, imitiert Ampelschaltung mit
-Grünphase für Linksabbieger
+- einfache Modellierung zur Regelung von Vorfahrt an ungeregelten Kreuzungen
+- Deadlocks werden vermieden
+- Verkehrteilnehmer müssen nur die eigene Abbiegepräferenz berücksichtigen
+- imitiert Ampelschaltung mit Grünphase für Linksabbieger
 
 ### Wie werden Kreisverkehre im Nagel-Schreckenberg-Modell modelliert?
 
