@@ -57,7 +57,7 @@ die mittlere Anzahl von Aufträgen, die pro Zeiteinheit eintreffen
 
 ### Wie wird die Ankunftsrate $\lambda$ berechnet?
 
-Kehrwert der mittleren Zwischenankunftszeit
+Kehrwert der mittleren (erwarteten) Zwischenankunftszeit
 
 ### Was ist ein stationärer stochastischer Prozess?
 
@@ -82,7 +82,7 @@ $$ F(t) = 1 - e ^ {-\lambda t} $$
 
 im Falle eines Ausfalls: Die Wahrscheinlichkeit, dass ein Bauteil noch x Jahre überlebt, wenn es
 schon y Jahre überlebt hat, ist genauso groß, wie dass ein neues Bauteil x Jahre überlebt  
-
+  
 im Falle der Ankunft eines Kunden: Die Wahrscheinlichkeit, dass in den nächste x Minuten ein neuer
 Kunde ankommt, wenn seit y Minuten keiner gekommen ist, ist genauso groß, wie dass ein Kunde in den
 ersten x Minuten nach Öffnung ankommt
@@ -153,11 +153,11 @@ Anhalten und Sichern des aktuellen Bearbeitungsstand des unterbrochenen Systems
 
 Summe aus Warte- und Bedienzeit
 
-### Wie ergibt sich die Wartezeit $w$ eines Wartesystems?
+### Was ist die Wartezeit $w$ eines Wartesystems?
 
 Zeit zwischen Ankunft in der Warteschlange und Beginn der Bedienung an einer Bedieneinheit
 
-### Wie ergibt sich die Bedienzeit $b$ eines Wartesystems?
+### Was ist die Bedienzeit $b$ eines Wartesystems?
 
 Zeit zwischen Beginn der Bedienung an einer Bedieneinheit und Abschluss der Bedienung
 
@@ -165,7 +165,7 @@ Zeit zwischen Beginn der Bedienung an einer Bedieneinheit und Abschluss der Bedi
 
 Anzahl der Aufträge im Wartesystem
 
-### Wie ergibt sich der Durchsatz $d$ eines Wartesystems?
+### Was ist der Durchsatz $d$ eines Wartesystems?
 
 mittlere Anzahl der in einem Zeitintervall vollendeten Aufträge
 
@@ -180,12 +180,9 @@ Durchsatz geteilt durch den Grenzdurchsatz
 ### Was ist die Formel von Little?
 
 zentraler Satz der Verkehrstheorie, der einen Zusammenhang zwischen mittlerer Füllung, mittlerem
-Durchsatz und mittlerer Verweilzeit herstellt
-
-$$ \overline{f}(t_1, t_2) = d(t_1, t_2) \cdot \overline{y}(t_1, t_2) $$
-
+Durchsatz und mittlerer Verweilzeit herstellt  
+$$ \overline{f}(t_1, t_2) = \overline{d}(t_1, t_2) \cdot \overline{y}(t_1, t_2) $$  
 bzw. der Erwartungswerte für stochastische Größen (Zufallsvariablen)
-
 $$ E(F) = E(D) \cdot E(Y) $$
 
 ### Wie hängen die Formel von Little und die Zustandsgleichung der makroskopischen Verkehrssimulation zusammen?
@@ -211,7 +208,7 @@ offen / geschlossen
 ### Was unterscheidet offene von geschlossenen Warteschlangensystemen?
 
 In geschlossenen Netzen ist die Anzahl der Aufträge, die darin zirkulieren konstant (konstante
-Füllung). In offenen Netzen kommen Auträge ins Netz und verlassen es auch wieder (variable Füllung)
+Füllung). In offenen Netzen kommen Aufträge ins Netz und verlassen es auch wieder (variable Füllung)
 
 ### Was geschieht mit bearbeiteten Aufträgen in einem geschlossenen Warteschlangennetz?
 
@@ -243,7 +240,9 @@ Grenzdurchsatz, also eine Auslastung von 1, erreicht
 
 ### Wie ergibt sich die erwartete Bedienzeit in einem Warteschlangennetzes?
 
-$$ E(B_s) = \sum _i v_i E(B_i) $$
+$$ E(B_s) = \sum _i v_i E(B_i) $$  
+wobei $v_i$ die Besuchszahl der $i$-ten Bedieneinheit ist und $E(B_i)$ die erwartete Bedienzeit an
+dieser Bedieneinheit
 
 ### Wie ergibt sich der Grenzdurchsatz eines Warteschlangennetzes?
 
@@ -260,8 +259,8 @@ wobei $c_S$ der Grenzdurchsatz des Systems und $E(B_S)$ der Erwartungswert der B
 
 ### Was ist ein stationären Grenzprozess?
 
-Ist der Erwartungswert einer Zustandsgröße (zum Beispiel Füllung) eines Prozesses nur nach langer
-Zeit konstant, ist es ein stationärer Grenzprozess.
+ein stationärer Grenzprozess stellt sich für einen stochastischen Prozesses ein, wenn die Verteilung
+einer Zufallsvariable für $t \rightarrow \infty$ konstant wird
 
 ### Wie nennt man den Zeitraum eines stationären Grenzprozess bis die stationäre Phase erreicht ist?
 
@@ -335,7 +334,7 @@ Zwischenzustände)
 ### Was ist eine rekurrente Markov-Kette?
 
 eine Markov-Kette bei der man mit Sicherheit von einem Zustand aus irgendwann wieder in diesem
-Zustand landet
+Zustand landet, also jeder Zustand rekurrent ist
 
 ### Was ist die "Rekurrenzzeit"?
 
@@ -383,7 +382,7 @@ mit der Zeit wächst, also steigt auch die Übergangswahrscheinlichkeit mit der 
 Die stationäre Grenzverteilung gibt an mit welcher Wahrscheinlichkeit ein Zustand in einer
 Markov-Kette nach unendlicher Zeit angenommen wird, unabhängig vom Startzustand
 
-### Was ist die Vorraussetzung für die Existenz eines stationären Grenzprozess?
+### Was ist die Vorraussetzung für die Existenz eines stationären Grenzprozess einer Markov-Kette?
 
 alle Zustände sind positiv rekurrent
 
@@ -404,7 +403,7 @@ ist. Lösen des Gleichungssystems liefert den Grenzzustand, unabhängig vom Star
 wenn die Warteschlange niemals unendlich lang werden kann, das ist entweder der Fall wenn
 - die Warteschlange endliche Kapazität hat
 - die Population (der Aufträge) endlich ist oder
-- die Ankunftsrate kleiner als die Bedienrate aller Bedieneinheiten ist $$ \lambda < m \mu $$
+- die Ankunftsrate kleiner als die Bedienrate aller Bedieneinheiten ist $\lambda < m \mu$
 
 ### Wie werden Wartesysteme mit endlich langer Warteschlange genannt?
 
@@ -414,7 +413,7 @@ Verlustsystem, weil Aufträge abgewiesen werden wenn die Warteschlange voll ist
 
 $$ E(F) = \frac{\lambda}{\mu - \lambda} $$
 
-### Wie berechnet sich die Auslatung eines $M/M/1$ Wartesystems im statioären Grenzzustand?
+### Wie berechnet sich die Auslastung eines $M/M/1$ Wartesystems im stationären Grenzzustand?
 
 $$ \rho = \frac{\lambda}{\mu} $$
 
@@ -422,7 +421,7 @@ $$ \rho = \frac{\lambda}{\mu} $$
 
 $$ E(F) = \frac{\lambda}{\mu} $$
 
-### Wie berechnet sich die Auslatung eines $M/M/m$ Wartesystems im statioären Grenzzustand?
+### Wie berechnet sich die Auslastung eines $M/M/m$ Wartesystems im stationären Grenzzustand?
 
 $$ \rho = \frac{\lambda}{m\mu} $$
 
@@ -446,8 +445,7 @@ Zeitstempel ermöglicht, zum Beispiel Fibbibonacci-Heap
 - Bedienzeit (Fahrtzeit) hängt von Füllung (Verkehrsdichte) ab
 - Kreuzungen sind Bedienstrationen
 
-### Welchen Vorteil hat die Modellierung des Straßenverkehrs als stochastischen Verkehrssimulation?
+### Welchen Vorteil hat die Modellierung des Straßenverkehrs als stochastische Verkehrssimulation?
 
 Weniger Rechenaufwand als mikroskopische Simulation, weil nur noch die Bedienzeit pro Straßen /
-Kreuzung bestimmt werden muss, statt das Vorankommen einzelner Verkehrsteilnehmer
-
+Kreuzung bestimmt werden muss, statt das Vorankommens einzelner Verkehrsteilnehmer
