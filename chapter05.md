@@ -74,7 +74,7 @@ $A_S$ bzw. $A_0$
 
 $A_E$ bzw. $A_{n+1}$
 
-### Was bedeutet ein Zyklus im Grahen für Prozess-Scheduling?
+### Was bedeutet ein Zyklus im Graphen für Prozess-Scheduling?
 
 dass es keinen zulässigen Zeitplan gibt
 
@@ -82,7 +82,7 @@ dass es keinen zulässigen Zeitplan gibt
 
 directect acyclic graph - gerichteter, kreisfreier Graph
 
-### Wann ist ein DAG toppologisch sortiert?
+### Wann ist ein DAG topologisch sortiert?
 
 wenn der Ausgangsknoten jeder Kante eine geringere Nummer hat als der Zielknoten
 
@@ -98,7 +98,7 @@ Zeitdauer zwischen Beginn des Prozesses und frühestem Beginn des Auftrags
 
 $s_i'$ und $c_i'$
 
-### Wann ist ein Knoten im Grahen für Prozess-Scheduling kritisch?
+### Wann ist ein Knoten im Graphen für Prozess-Scheduling kritisch?
 
 wenn frühest- und spätestmögliche Startzeit für den Auftrag identisch sind
 
@@ -165,7 +165,8 @@ ein Job-Shop-Problem bei dem jeder Auftrag jede Maschine höchstens einmal benö
 
 ### Wie werden Aufträge in einem Job-Shop-Modell ohne Rezirkulation notiert?
 
-als Matrix mit Maschinennummern in Zeile 1 und Bearbeitungszeiten in Zeile 2
+als Matrix mit Maschinennummern in Zeile 1 und Bearbeitungszeiten in Zeile 2, wobei jede Spalte
+einen Teilauftrag darstellt
 
 ### Wann ist ein Zeitplan im Job-Shop-Modell zulässig?
 
