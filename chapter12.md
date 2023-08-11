@@ -43,7 +43,8 @@ ein Zustand zu dem ein System aus mehreren Startzuständen (in der Umgebung) str
 
 ### Wie kann ein anziehender Fixpunkt identifiziert werden?
 
-der Betrag der erste Ableitung der Iterationsfunktion ist kleiner als 1
+die Iterationsfunktion bildet einen Fixpunkt auf sich selbst ab und der Betrag der erste Ableitung
+der Iterationsfunktion ist kleiner als 1
 
 ### Wie kann ein abstoßender Fixpunkt identifiziert werden?
 
@@ -67,7 +68,9 @@ $$ \Phi(x) = rx(1-x) $$
 ### Was ist eine Bifurkation?
 
 qualitative Zustandsänderung in nichtlinearen Systemen bei Änderung eines Systemparameters, bei der
-das System von einem asymptotischen Fixpunkt zur Oszillation zwischen zwei Werten wechselt
+das System, Beispiele:
+- Änderung der Anzahl von Attraktoren wie Fixpunkte oder periodischen Orbits
+- Änderung der Stabilität dieser Objekte
 
 ### Was ist eine transkritische Bifurkation?
 
@@ -96,10 +99,10 @@ vorherigen Fixpunkt entstehen und sich erst mit weiter wachsendem Systemparamete
 
 ### Was ist eine "subkritische Gabelbifurkation"?
 
-das Systemverhalten ändert sich von der Existenz eines Fixpunktes, gegen den das System konvergiert,
-zu einem chaotischen Verhalten ohne Fixpunkte oder Oszillation
+das Systemverhalten ändert sich von der Existenz eines stabilen und zwei instabiler Fixpunkte hin zu
+einem System mit nur einem instabilen Fixpunkt
 
-### Warum ist die subkritische Gabelbifurkation kritisch?
+### Warum ist die subkritische Gabelbifurkation problematisch?
 
 weil sich das Systemverhalten bei Übergang des Bifurkationspunktes unerwartet verhält und kleine
 Änderungen zu extremen Antworten des Systems führen können
@@ -143,9 +146,9 @@ Startzuständen erreicht wird und im stationären Verhalten des Systems nicht ve
 
 ### Was ist die Cantor-Menge?
 
-eine Teilmenge der rellen Zahlen des Intervalls $[0,1]$ die konstruiert wird, indem ausgehend von
-allen Zahlen des Intervall wiederholt das mittlere Drittel der noch vorhandenen Intervalle unendlich
-oft entfernt wird
+eine Teilmenge der rellen Zahlen des Intervalls $[0,1]$ mit fraktaler Dimension, die konstruiert
+wird, indem ausgehend von allen Zahlen des Intervall wiederholt das mittlere Drittel der noch
+vorhandenen Intervalle unendlich oft entfernt wird
 
 ### Wie wird die fraktale Dimension insbesondere selbstähnlicher Figuren bestimmt?
 
