@@ -84,7 +84,7 @@ directect acyclic graph - gerichteter, kreisfreier Graph
 
 ### Wann ist ein DAG topologisch sortiert?
 
-wenn der Ausgangsknoten jeder Kante eine geringere Nummer hat als der Zielknoten
+wenn der Startknoten jeder Kante eine geringere Nummer hat als der Zielknoten
 
 ### Mit welchem Algorithmus lässt sich ein DAG topologisch sortieren?
 
@@ -216,7 +216,7 @@ ein heuristisches Verfahren zum Finden einer guten Lösung eines Job-Shop Ablauf
 3. Höhere Bearbeitungszeit ist die untere Grenze der Bearbeitungszeit (Fälligkeitszeitpunkt)
 4. Ermitteln der Fälligkeitszeiten der Teiljobs für Bottleneck Maschine: Von unterer Grenze so
    zurückrechnen, dass alle Folgeteilaufträge eines Jobs zur unteren Grenze erreicht werden können.
-5. 1|$r_j$|$L_max$ - Verfahren für Bottleneck-Maschine
+5. 1|$r_j$|$L_{max}$ - Verfahren für Bottleneck-Maschine
 6. Im Baum mit der Reihenfolge mit der geringsten Überfälligkeit weitermachen
 
 Mit der ermittelten Reihenfolge wird eine Disjunktivkantenbelegung für die Bottleneck Maschine
@@ -225,7 +225,7 @@ gemacht. Danach wird mit der Maschine mit der nächstkleineren Gesamtbelegungsze
 
 ### Wie funktioniert "Branch-and-Bound" beim Job-Scheduling?
 
-1|$r_j$|$L_max$ - Verfahren:
+1|$r_j$|$L_{max}$ - Verfahren:
 Es wird jeder Job einmal als erster Job festgelegt und die minimale Fertigungszeit unter der Annahme
 unterbrechbarer / aufteilbarer Aufträge ermittelt (branch). Dies ist die untere Grenze für jede im
 Baum darunterliegende Reihenfolge (bound). In der nächsten Ebene wird der zweite Job festgelegt und

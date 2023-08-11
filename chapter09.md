@@ -98,10 +98,8 @@ Kendall-Notation
 
 ### Was ist die "Kendall-Notation" und wie ist sie aufgebaut?
 
-einheitliche Beschreibung von Wartesystemen Aufbau:
-
-A/B/m/k/n/D
-
+einheitliche Beschreibung von Wartesystemen Aufbau:  
+A/B/m/k/n/D  
 mit
 - A: Verteilung der Ankünfte
 - B: Verteilung der Bedienzeiten
@@ -193,7 +191,7 @@ $$ E(F) = E(D) \cdot E(Y) $$
 
 ### Wie berechnet sich der Grenzdurchsatz einer Bedieneinheit?
 
-$$ c_{BE} = \frac{m}{E(B)} $$
+$$ c_{BE} = \frac{m}{E(B)} = m \mu$$
 
 Wobei $m = 1$ bei einer einzelnen Bedieneinheit
 
@@ -247,8 +245,7 @@ dieser Bedieneinheit
 ### Wie ergibt sich der Grenzdurchsatz eines Warteschlangennetzes?
 
 Der Grenzdurchsatz hängt vom Grenzdurchsatz des Verkehrsengpass ab und wird durch die nötige Anzahl
-der besuche reduziert
-
+der Besuche reduziert  
 $$ c_S = \frac{c_{VE}}{v_{VE}} $$
 
 ### Wie ergibt sich die Sättigungsfüllung eines Warteschlangennetzes?
@@ -259,10 +256,10 @@ wobei $c_S$ der Grenzdurchsatz des Systems und $E(B_S)$ der Erwartungswert der B
 
 ### Was ist ein stationären Grenzprozess?
 
-ein stationärer Grenzprozess stellt sich für einen stochastischen Prozesses ein, wenn die Verteilung
-einer Zufallsvariable für $t \rightarrow \infty$ konstant wird
+Ein stationärer Grenzprozess stellt sich für einen stochastischen Prozesses ein, wenn die Verteilung
+der Zufallsvariablen des Prozesses für $t \rightarrow \infty$ konstant wird.
 
-### Wie nennt man den Zeitraum eines stationären Grenzprozess bis die stationäre Phase erreicht ist?
+### Wie nennt man den Zeitraum bis in einem stochastischen Prozess die stationäre Phase (stationärer Grenzprozess) erreicht ist?
 
 Einschwingphase / transiente Phase
 
@@ -415,7 +412,7 @@ $$ E(F) = \frac{\lambda}{\mu - \lambda} $$
 
 ### Wie berechnet sich die Auslastung eines $M/M/1$ Wartesystems im stationären Grenzzustand?
 
-$$ \rho = \frac{\lambda}{\mu} $$
+$$ \rho = \frac{\lambda}{\mu} = \frac{E(D)}{c} $$
 
 ### Wie berechnet sich der Erwartungswert der Füllung eines $M/M/\infty$ Wartesystems?
 
@@ -436,7 +433,7 @@ diskrete event simulation (diskrete Ereignissimulation)
 ### Welche Datenstrukturen eigenen sich zur Modellierung der Warteschlange von Ereignissen bei der diskreten Ereignissimulation?
 
 Datenstruktur, die automatisch Ordnung herstellt und die Entnahme des Ereginisses mit dem nächsten
-Zeitstempel ermöglicht, zum Beispiel Fibbibonacci-Heap 
+Zeitstempel ermöglicht, zum Beispiel Fibonacci-Heap
 
 ### Wie wird Straßenverkehr auf Basis der stochastischen Verkehrssimulation modelliert?
 

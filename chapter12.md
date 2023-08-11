@@ -54,7 +54,7 @@ der Betrag der erste Ableitung der Iterationsfunktion ist größer als 1
 
 transiente Dynamik
 
-### Was ist "asymptotischen Dynamik" eines Systems?
+### Was ist die "asymptotische Dynamik" eines Systems?
 
 Konvergiert ein System gegen einen Fixpunkt, verschwindet die transiente Dynamik und das System geht
 in ein stationäres Verhalten, die asymptotische Dynamik über. Zyklen und seltsame Attraktoren passen
