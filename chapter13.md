@@ -95,7 +95,7 @@ unterscheiden sich die Partikel in den Parametern, die für die Berechnung der K
 
 ### Was ist der Abschneideradius?
 
-eine Distanz zwischen Partikeln oberhalb der die Wechselwirkungen zwischen ihnen vernachlässtigt
+eine Distanz zwischen Partikeln oberhalb der die Wechselwirkungen zwischen ihnen vernachlässigt
 wird
 
 ### Welchen Vorteil bietet die Verwendung des Abschnederadius bei der Berechnung von Parikelkäften?
@@ -120,7 +120,7 @@ ein Verfahren zweiter Ordnung zum numerischen Lösen von Differentialgleichungen
 3. Berechnung der neuen Kraft auf die Partikel auf Basis der neuen Position
 4. Berechnung der neuen Beschleunigung auf Basis der Kraft
 5. Berechnung der neuen Geschwindigkeit durch einen halben impliziten Euler-Schritt
-
+  
 Dadurch müssen nicht zwei Beschleunigungen pro Partikel gespeichert werden
 
 ### Welche Vorteile bietet das Velocity-Störmer-Verlet-Verfahren gegenüber dem Euler-Verfahren?
@@ -166,7 +166,7 @@ Das Simulationsgebiet ist für gewöhnlich ein Ausschnitt aus einer größeren W
 sodass auch Interaktionen außerhalb des Simulationsgebiets stattfinden. Periodische Randbedingungen
 bieten bessere Vorraussetzungen das abzubilden.
 
-### Welches Problem besteht bei periodischen Randbedigungen in Verbindung mit einem Abschneideradius, der größer als das Simulationsgebit ist?
+### Welches Problem besteht bei periodischen Randbedigungen in Verbindung mit einem Abschneideradius, der größer als das Simulationsgebiet ist?
 
 Partikel können sich selbst beeinflussen, weil ihre virtuellen Kopien genau die Größe des Simulationsgebiets von ihnen entfernt liegen
 
