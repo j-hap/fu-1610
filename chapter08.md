@@ -53,7 +53,7 @@ Stanislav Ulm
 - Moore-Nachbarschaft: Zellen, die sich eine Kante teilen sind benachbart
 - von-Neumann-Nachbarschaft: Zellen, die sich mindestens eine Ecke teilen sind benachtbart
 
-### Wie wird der Folgezustand von Zellen in einem zellulären Automaten berechnet?
+### In welcher Reihenfolge wird der Folgezustand von Zellen in einem zellulären Automaten berechnet?
 
 Der neue Zustand wird für alle Zellen parallel berechnet.
 
