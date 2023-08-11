@@ -143,12 +143,11 @@ eine stochastische Zufallsvariable mit bekannter Verteilung
 Selbst bei diskreter Verteilung der Bearbeitungszeit der Einzelprozesse ergeben sich schnell zu
 viele mögliche Kombinationen, sodass der Aufwand schnell zu groß wird
 
-### TODO
+### Was besagt die Jensensche Ungleichung?
 
-Jensensche Ungleichung (Erwartungswert Gesamtdauer ist höher als höher als höchster Erwartungswert
-bei Paralleler Bearbeitung) Erwartungswert darf nicht statt Dichtefunktion verwendet werden Selbst
-bei wenig Aufgaben ist Erwartungsfunktion nicht tauglich, weil damit der falsche kritische Pfad
-identifiziert wird
+bei rein paralleler Verarbeitung von Aufträgen mit stochastischer Bearbeitungszeit, ist der
+Erwartungswert der Gesamtfertigungszeit größer als der größte Erwartungswert der Bearbeitungszeiten
+der einzelnen Aufträge
 
 ### Welche Erweiterung der "Kritischer-Pfad-Methode" behandelt beschränkte Ressourcen?
 
