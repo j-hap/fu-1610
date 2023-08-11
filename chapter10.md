@@ -18,33 +18,32 @@ Differentialgleichungen
 
 ### Was bedeutet "lineares Modell" im Kontext der Populationsdynamik?
 
-Wachstum der Population (Ableitung) wird linear in Abhängigkeit der Populationsgröße modelliert, ergibt aber eine exponentielle Gleichung der Population über der Zeit
+Wachstum der Population (Ableitung) wird linear in Abhängigkeit der Populationsgröße modelliert,
+ergibt aber eine exponentielle Gleichung der Population über der Zeit
 
 ### Wie lautet die Differentialgleichung des linearen Modells der Populationsdynamik?
 
-$$
-\dot{p}(t) = \lambda p(t)
-$$
+$$ \dot{p}(t) = \lambda p(t) $$
 
 ### Wie lautet die Differentialgleichung des linearen Modells mit Sättigung der Populationsdynamik?
 
-$$
-\dot{p}(t) = \lambda_0 - \lambda_1 p(t)
-$$
+$$ \dot{p}(t) = \lambda_0 - \lambda_1 p(t) $$
 
 ### Welchen Nachteil haben lineare Modelle der Populationsdynamik?
 
-es lässt sich zwar Zuwachs der Populationsänderung oder auch Abnahme der Zunahme bei steigender Population modellieren, allerdings kein exponentielles Wachstum kleiner Populationen, das für größere Populationen beschränkt ist
+es lässt sich zwar Zuwachs der Populationsänderung oder auch Abnahme der Zunahme bei steigender
+Population modellieren, allerdings kein exponentielles Wachstum kleiner Populationen, das für
+größere Populationen beschränkt ist
 
 ### Was bedeutet "logistisches Modell" im Kontext der Populationsdynamik?
 
-ein Modellansatz der Populationsdynamik, in der die Wachstumsrate $\lambda$ von der Populationsgröße abhängt und die Populationsänderung von der Wachstumsrate und der Populationsgröße, also damit quadratisch von der Populationsgröße
+ein Modellansatz der Populationsdynamik, in der die Wachstumsrate $\lambda$ von der Populationsgröße
+abhängt und die Populationsänderung von der Wachstumsrate und der Populationsgröße, also damit
+quadratisch von der Populationsgröße
 
 ### Wie lautet die logistische Differentialgleichung der Populationsdynamik?
 
-$$
-\dot{p}(t) = \lambda(p(t) p(t) = (a-b \cdot p(t)) \cdot p(t) = ap(t) - bp(t)^2
-$$
+$$ \dot{p}(t) = \lambda(p(t) p(t) = (a-b \cdot p(t)) \cdot p(t) = ap(t) - bp(t)^2 $$
 
 ### Was ist ein Gleichgewichtspunkt in der Populationsdynamik?
 
@@ -57,9 +56,7 @@ zwei
 
 ### Wo liegt das stabile Gleichgewicht der logistischen Differentialgleichung?
 
-$$
-\overline{p} = \frac{a}{b}
-$$
+$$ \overline{p} = \frac{a}{b} $$
 
 ### Welche Anwendungsfälle gibt es für Zwei-Spezies-Modelle?
 
@@ -68,7 +65,9 @@ $$
 
 ### Welche Konsequenz hat ein Aussterben der Beute im Zwei-Spezies-Modell für den Räuber?
 
-Gemäß dem Modell stirbt auch der Räuber aus. Hat der Räuber auch andere Nahrungsquellen oder kann andere Populationen der Beute aufsuchen, stößt das Modell an die Grenzen, weil der Räuber nicht ausstirbt
+Gemäß dem Modell stirbt auch der Räuber aus. Hat der Räuber auch andere Nahrungsquellen oder kann
+andere Populationen der Beute aufsuchen, stößt das Modell an die Grenzen, weil der Räuber in der
+Realität nicht ausstirbt
 
 ### Wie sind Gleichgewichtspunkte im Zwei-Spezies-Modell charakterisiert?
 
@@ -80,7 +79,8 @@ wie das logistische Ein-Spezies-Modell
 
 ### Wie kann man Räuber-Beute-Modelle an den Parametern erkennen?
 
-eine große Population von P beschleunigt das Wachstum von Q aber eine große Population von Q beschränkt das Wachstum von P (oder andersherum)
+eine große Population von P beschleunigt das Wachstum von Q aber eine große Population von Q
+beschränkt das Wachstum von P (oder andersherum)
 
 ### Wie kann man Konkorrenz-Modelle an den Parametern erkennen?
 
