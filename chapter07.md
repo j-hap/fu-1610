@@ -124,7 +124,9 @@ Verkehrsgleichung
 
 ### Was ist ein Prädiktor-Korrektor-Verfahren?
 
-Mehrschrittverfahren in dem mit einem expliziten Einschrittverfahren 
+Mehrschrittverfahren in dem mit einem expliziten Verfahren ein Hilfspunkt zum nächsten Zeitpunkt
+berechnet wird, dessen Funktionswert für die (implizite) Berechnung eines korrigierten nächsten
+Zeitschritts verwendet wird
 
 ### Welchen Vorteil hat ein Prädiktor-Korrektor-Verfahren gegenüber einem Einschrittverfahren?
 
