@@ -218,7 +218,7 @@ ein heuristisches Verfahren zum Finden einer guten Lösung eines Job-Shop Ablauf
    zurückrechnen, dass alle Folgeteilaufträge eines Jobs zur unteren Grenze erreicht werden können.
 5. 1|$r_j$|$L_{max}$ - Verfahren für Bottleneck-Maschine
 6. Im Baum mit der Reihenfolge mit der geringsten Überfälligkeit weitermachen
-
+  
 Mit der ermittelten Reihenfolge wird eine Disjunktivkantenbelegung für die Bottleneck Maschine
 gemacht. Danach wird mit der Maschine mit der nächstkleineren Gesamtbelegungszeit weiter gemacht
 (Shifting).
