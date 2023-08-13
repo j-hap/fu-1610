@@ -25,7 +25,7 @@ Handlungen, die ein Spieler ausführen kann
 - Schuld für einen Teil des Verbrechens ist bewiesen -> Mindeststrafe steht fest
 - Jeder Verbrecher kann schweigen oder den anderen verraten
 - schweigen beide, bekommen sie die Mindesstrafe
-- schweigt nur einer, bekommt der Verräter Straferlass und der eine höhere Strafe
+- schweigt nur einer, bekommt der Verräter Straferlass und der andere eine höhere Strafe
 - schweigt keiner, bekommen beide eine höhere Strafe, allerdings niedriger als wenn nur einer
   schweigt
 
@@ -36,7 +36,7 @@ Handlungen, die ein Spieler ausführen kann
 - die Vorlieben beider Spieler sind
   1. gemeinsam am Lieblingsort
   2. gemeinsam am anderen Ort
-  3. einsam am Lieblingsort
+  3. einsam (Ort egal)
 - die Lieblingsorte sind verschieden
 
 ### Wie werden die Strategien des anderen Spielers notiert?
@@ -183,3 +183,14 @@ Rationale Entscheidungen gehen davon aus, dass beide Spieler rational handeln. S
 die Rationalität des Gegenspielers in Frage, können trotz eines offensichtlich optimalen
 Gleichgewichts konservative Strategien gewählt werden, bei denen ein Abweichen des Gegenspielern für
 den Spieler selbst zu nur geringen Verlusten führt.
+
+### Was ist ein linearer Kongruenzgenerator?
+
+ein einfacher Pseudozufallszahlengenerator
+
+### Welche Parameter hat ein linearer Kongruenzgenerator?
+
+- Seed, der erste Wert
+- Faktor, wird mit der letzten generierten Zahl multipliziert wird
+- Offset, der zum Produkt addiert wird
+- Modulus, der die Summe teilt
