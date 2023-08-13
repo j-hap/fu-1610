@@ -34,7 +34,7 @@ Stanislav Ulm
 - Zustandsmenge: jede Zelle kann einen (diskreten) Zustand einer Zustandsmenge annehmen
 - Nachbarschaftsbeziehung: jede Zelle kennt benachbarte Zellen. Diese beeinflussen sich gegenseitig.
 - diskrete Zeit: Zustand des der Zellen im Automaten ändert sich in diskreten Zeitschritten
-- Lokale übergangsfunktion: Nur der eigene Zustand und der der benachbarten Zellen beeinflusst den
+- lokale Übergangsfunktion: Nur der eigene Zustand und der der benachbarten Zellen beeinflusst den
   Übergang in einen neuen Zustand.
 
 ### Welche Zellformen werden bei zweidimensionalen zellulären Automaten für gewöhnlich verwendet?
@@ -45,8 +45,8 @@ Stanislav Ulm
 
 ### Welche Nachbarschaftsbeziehungen gibt es bei zellulären Automaten mit rechteckigen Zellen?
 
-- Moore-Nachbarschaft: Zellen, die sich eine Kante teilen sind benachbart
-- von-Neumann-Nachbarschaft: Zellen, die sich mindestens eine Ecke teilen sind benachtbart
+- Moore-Nachbarschaft: Zellen, die sich mindestens eine Ecke teilen sind benachtbart
+- von-Neumann-Nachbarschaft: Zellen, die sich eine Kante teilen sind benachbart
 
 ### In welcher Reihenfolge wird der Folgezustand von Zellen in einem zellulären Automaten berechnet?
 
@@ -137,7 +137,7 @@ Stau
 stochastische Erweiterung, die Fahrzeuge zufällig um 1 von der Maximalgeschwindigkeit abbremsen
 lässt oder um 1 zu stark abbremsen lässt
 
-### Was repräsentiert der Trödelfaktor im im Nagel-Schreckenberg-Modell?
+### Was repräsentiert der Trödelfaktor im Nagel-Schreckenberg-Modell?
 
 - Überreagieren von Fahrern bei Bremsvorgängen
 - zu wenig Gas bei Fahrern ohne Tempomat, um die Geschwindigkeit zu halten (Anstieg, Gegenwind)
@@ -286,9 +286,9 @@ Vergleichbar mit Multi-Agenten-Simulationen, wenn nicht alle Verkehrsteilnehmer 
 
 Überholvorgänge, weil sich sonst der Verkehr hinter den Langsamen staut
 
-### Wie fein werden Zellen im im Nagel-Schreckenberg-Modell aktuell modelliert?
+### Wie fein werden Zellen im Nagel-Schreckenberg-Modell aktuell modelliert?
 
-$\leq 30 \thinspace \mathrm{cm}$
+$\geq 30 \thinspace \mathrm{cm}$
 
 ### Wie lässt sich die Modellierung des Trödelfaktors verfeinern?
 
