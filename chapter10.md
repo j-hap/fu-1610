@@ -36,13 +36,13 @@ große Populationen modellieren, aber nicht beides
 
 ### Was bedeutet "logistisches Modell" im Kontext der Populationsdynamik?
 
-ein Modellansatz der Populationsdynamik, in der die Wachstumsrate $\lambda$ von der Populationsgröße
-abhängt und die Populationsänderung von der Wachstumsrate und der Populationsgröße, also damit
-quadratisch von der Populationsgröße
+ein Modellansatz der Populationsdynamik, in der die Wachstumsrate $\lambda$ linear von der
+Populationsgröße abhängt und die Populationsänderung von der Wachstumsrate und der Populationsgröße,
+also damit quadratisch von der Populationsgröße
 
 ### Wie lautet die logistische Differentialgleichung der Populationsdynamik?
 
-$$ \dot{p}(t) = \lambda(p(t) p(t) = (a-b \cdot p(t)) \cdot p(t) = ap(t) - bp(t)^2 $$
+$$ \dot{p}(t) = \lambda(p(t)) \cdot p(t) = (a-b \cdot p(t)) \cdot p(t) = ap(t) - bp(t)^2 $$
 
 ### Was ist ein Gleichgewichtspunkt in der Populationsdynamik?
 
@@ -55,6 +55,11 @@ zwei
 
 ### Wo liegt das stabile Gleichgewicht der logistischen Differentialgleichung?
 
+Aus 
+$$ \dot{p}(t) = a \overline{p} - b  \overline{p} ^2 = (a - b \overline{p}) \overline{p} = 0 $$
+folgt
+$$ \overline{p} = 0 $$
+und
 $$ \overline{p} = \frac{a}{b} $$
 
 ### Welche Anwendungsfälle gibt es für Zwei-Spezies-Modelle?
@@ -78,8 +83,8 @@ wie das logistische Ein-Spezies-Modell
 
 ### Wie kann man Räuber-Beute-Modelle an den Parametern erkennen?
 
-eine große Population von P beschleunigt das Wachstum von Q aber eine große Population von Q
-beschränkt das Wachstum von P (oder andersherum)
+eine große Population von P beschleunigt das Wachstum von Q (positives Vorzeichen) aber eine große
+Population von Q beschränkt das Wachstum von P (negatives Vorzeichen) (oder andersherum)
 
 ### Wie kann man Konkorrenz-Modelle an den Parametern erkennen?
 
