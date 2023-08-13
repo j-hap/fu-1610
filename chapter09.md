@@ -439,7 +439,7 @@ Zeitstempel ermöglicht, zum Beispiel Fibonacci-Heap
 - Verkehrsteilnehmer sind Aufträge des Systems
 - Straßen sind Wartesysteme endlicher Kapazität
 - Bedienzeit (Fahrtzeit) hängt von Füllung (Verkehrsdichte) ab
-- Kreuzungen sind Bedienstrationen
+- Kreuzungen sind Bedienstationen
 
 ### Welchen Vorteil hat die Modellierung des Straßenverkehrs als stochastische Verkehrssimulation?
 
