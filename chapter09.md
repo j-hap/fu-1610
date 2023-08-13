@@ -192,7 +192,6 @@ $$ E(F) = E(D) \cdot E(Y) $$
 ### Wie berechnet sich der Grenzdurchsatz einer Bedieneinheit?
 
 $$ c_{BE} = \frac{m}{E(B)} = m \mu$$
-
 Wobei $m = 1$ bei einer einzelnen Bedieneinheit
 
 ### Was ist ein Warteschlangennetz?

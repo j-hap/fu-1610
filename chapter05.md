@@ -176,7 +176,7 @@ einen Teilauftrag darstellt
 
 Konjunktivkanten
 
-### Was sind Diskunktivkanten?
+### Was sind Disjunktivkanten?
 
 Bidirektionale Kanten im Präzedenzgraphen, die zwischen Knoten liegen, die gleiche Ressourcen
 benötigen
