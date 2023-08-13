@@ -67,7 +67,7 @@ eine anziehende Kraft zwischen Atomen, die sich nahe kommen, die auf die elektro
 
 ### Wie entsteht die van-der-Waals-Kraft?
 
-Atome bilden durch inhomogene verteilung der Elektronen temporäre Bipole, die Atome in der Nähe
+Atome bilden durch inhomogene Verteilung der Elektronen temporäre Bipole, die Atome in der Nähe
 ebenfalls zu Bipolen machen, indem dessen Elektronen vom negativen Pol des ersten abgestoßen werden.
 Dadurch entsteht eine Anziehung zwischen Atomkern des einen und negativem Pol
 ("Elektronenansammlung") des anderen Atoms
