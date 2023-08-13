@@ -6,9 +6,11 @@ recall: header
 
 die Simulation von Straßenverkehr durch Abbildung der kollektiven Gesamtdynamik
 
-### Was zeichnet Makroskopische Verkehrsimulation aus?
+### Was zeichnet die makroskopische Verkehrsimulation aus?
 
-Dynamik einzelner Verkehrsteilnehmer ist irrelevant, es wird die kollektive Gesamtdynamik abgebildet
+Dynamik einzelner Verkehrsteilnehmer ist irrelevant, es wird die kollektive Gesamtdynamik
+abgebildet. Die kollektive Gesamtdynamik wird auf Basis der Simulation der "verschmierten"
+Verkehrteilnehmer ermittelt.
 
 ### Was sind die interessanten Größen bei makroskopischer Verkehrsimulation?
 

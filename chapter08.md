@@ -6,11 +6,6 @@ recall: header
 
 die Simulation von Straßenverkehr durch Abbildung jedes einzelnen Verkehrsteilnehmers
 
-### Was zeichnet makroskopische Verkehrsimulation aus?
-
-kollektive Gesamtdynamik wird auf Basis der Simulation der "verschmierten" Verkehrteilnehmer
-ermittelt
-
 ### Wie unterscheiden sich makroskopische und mikroskopische Verkehrssimulation in Bezug auf Überholmanöver?
 
 bei makroskopischer Simulation implizit die Möglichkeit dazu gegeben, bei mikroskopischer nicht.
