@@ -115,7 +115,7 @@ Phänomen oder ein technisches System
 2. Welche Beschreibungsmittel verwendet man dafür?
 3. Wie bewertet man dann anschließend die Qualität des hergeleiteten Modells?
 
-### Wie läuft die Modellierung ab?
+### Wie werden Modelle für die Simulation hergeleitet?
 
 - Festlegen 
   - des räumlichen und zeitlichen Rahmens der Simulation
