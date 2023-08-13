@@ -78,9 +78,9 @@ ist (das negative des eingetragenen Werts)
 
 ### Was ist die "strategische Normalform" eines Spiels?
 
-Darstellung über Strategiemengen und Auszahlungsfunktion
+Darstellung des Spiels mittels Strategiemengen und Auszahlungsfunktion
 
-### Was ist ein Spiel mit "vollständiger Informationen"?
+### Was ist ein Spiel mit "vollständiger Information"?
 
 Wenn allen Spielern die komplette Auszahlungsfunktion bekannt ist
 
@@ -96,6 +96,7 @@ eine Strategie wählen.
 
 ### Welche Entscheidungsstrategien hängen nur von der Mentalität des einen Spielers ab?
 
+Beim Spiel bei Risiko, also Ungewissheit über die Strategie des Gegenspielers:
 - risikobereit: Spieler entscheidet sich für die Strategie mit maximalem Gewinn, auch wenn das
   maximalen Verlust bei ungünstiger Entscheidung des Gegenspielers bedeutet
 - vorsichtig: Spieler entscheidet sich für die Strategie mit höchstem minimalem Gewinn

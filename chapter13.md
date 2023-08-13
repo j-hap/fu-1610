@@ -98,9 +98,12 @@ unterscheiden sich die Partikel in den Parametern, die für die Berechnung der K
 eine Distanz zwischen Partikeln oberhalb der die Wechselwirkungen zwischen ihnen vernachlässigt
 wird
 
-### Welchen Vorteil bietet die Verwendung des Abschnederadius bei der Berechnung von Parikelkäften?
+### Welchen Vorteil bietet die Verwendung des Abschneideradius bei der Berechnung von Partikelkäften?
 
-Es müssen nicht alle Partikel im Simulationsraum berücksichtigt werden. Bei Gleichverteilung der Partikel im Raum ist die Anzahl der Partikel innerhalb des Abschneideradius konstant, womit sich der Aufwand für die Kraftberechnung aller Partikel von $\mathcal{O}(n^2)$ auf $\mathcal{O}(n)$ verringert
+Es müssen nicht alle Partikel im Simulationsraum berücksichtigt werden. Bei Gleichverteilung der
+Partikel im Raum kann der Abschneideradius so gewählt werden, dass die Anzahl der Partikel innerhalb
+des Abschneideradius konstant ist, womit sich der Aufwand für die Kraftberechnung aller Partikel von
+$\mathcal{O}(n^2)$ auf $\mathcal{O}(n)$ verringert
 
 ### Was ist das "Velocity-Störmer-Verlet-Verfahren"?
 

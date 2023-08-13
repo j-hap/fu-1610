@@ -31,9 +31,8 @@ $$ \dot{p}(t) = \lambda_0 - \lambda_1 p(t) $$
 
 ### Welchen Nachteil haben lineare Modelle der Populationsdynamik?
 
-es lässt sich zwar Zuwachs der Populationsänderung oder auch Abnahme der Zunahme bei steigender
-Population modellieren, allerdings kein exponentielles Wachstum kleiner Populationen, das für
-größere Populationen beschränkt ist
+es lässt sich entweder ein exponentielles Wachstum oder eine Abnahme der Populationsänderung für
+große Populationen modellieren, aber nicht beides
 
 ### Was bedeutet "logistisches Modell" im Kontext der Populationsdynamik?
 
