@@ -44,11 +44,12 @@ ein Zustand zu dem ein System aus mehreren Startzuständen (in der Umgebung) str
 ### Wie kann ein anziehender Fixpunkt identifiziert werden?
 
 die Iterationsfunktion bildet einen Fixpunkt auf sich selbst ab und der Betrag der erste Ableitung
-der Iterationsfunktion ist kleiner als 1
+der Iterationsfunktion am Fixpunkt ist $<1$
 
 ### Wie kann ein abstoßender Fixpunkt identifiziert werden?
 
-der Betrag der erste Ableitung der Iterationsfunktion ist größer als 1
+die Iterationsfunktion bildet einen Fixpunkt auf sich selbst ab und der Betrag der erste Ableitung
+der Iterationsfunktion am Fixpunkt ist $>1$
 
 ### Wie wird der zeitliche Abschnitt der Systemdynamik bis zum Erreichen eines Fixpunktes genannt?
 
@@ -153,8 +154,10 @@ vorhandenen Intervalle unendlich oft entfernt wird
 ### Wie wird die fraktale Dimension insbesondere selbstähnlicher Figuren bestimmt?
 
 Skaliert man eine einfache Figur und einen ganzzahligen Faktor, besteht die neue Figur aus n Kopien
-(Vergrößerung) bzw. passt n mal in die Ausgangsfigur (Verkleinerung). Die Anzahl n ergibt sich aus
-$\text{Skalierungsfaktor}^\text{Dimension}$
+(Vergrößerung) bzw. passt $n$-mal in die Ausgangsfigur (Verkleinerung). Die Anzahl Kopien $n$ ergibt sich aus
+$$ \text{Anzahl Kopien} = \text{Skalierungsfaktor}^\text{Dimension} $$
+und damit die Dimension zu 
+$$ \text{Dimension} = \frac{\ln \text{Anzahl Kopien}}{\ln \text{Skalierungsfaktor}} $$
 
 ### Wie ergibt sich die fraktale Dimension der Cantor-Menge?
 
@@ -191,6 +194,6 @@ eine Methode ein kontinuierliches System um eine Dimension zu reduzieren
 in einem n-dimensionalen Phasenraum, wird eine (n-1)-dimensionale Struktur plaziert und die Schnitte
 mit der Zustandstrajektorie (von der immer gleichen Seite) aufgenommen
 
-### Wie ist die Periode eines kontinuierlichen dymanischen Systems definiert?
+### Wie ist die Periode eines kontinuierlichen dynamischen Systems definiert?
 
-Anzahl der Punkte im Poincaré-Schnitt
+Anzahl der (Hyper-)Punkte im Poincaré-Schnitt
