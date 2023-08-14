@@ -429,6 +429,10 @@ eine Simulation, die nur zu Zeitpunkten simuliert wird, bei denen ein Ereignis s
 
 diskrete event simulation (diskrete Ereignissimulation)
 
+### Wofür steht die Abkürzung PDES?
+
+parallel diskrete event simulation (parallele diskrete Ereignissimulation)
+
 ### Welche Datenstrukturen eigenen sich zur Modellierung der Warteschlange von Ereignissen bei der diskreten Ereignissimulation?
 
 Datenstruktur, die automatisch Ordnung herstellt und die Entnahme des Ereginisses mit dem nächsten
