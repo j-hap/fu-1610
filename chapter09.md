@@ -272,7 +272,7 @@ diskrete / kontinuierliche Zeit / Zustandsmenge:
 
 ### Was zeichnet einen kontinuierlichen Prozess aus?
 
-Der Zustandsraum ist nicht abzählbar, also die Menge der rationalen Zahlen.
+Der Zustandsraum ist nicht abzählbar, also die Menge der reelen Zahlen.
 
 ### Was zeichnet einen diskreten Prozess aus?
 
