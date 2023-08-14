@@ -37,16 +37,20 @@ aus dem vorherigen iterativ berechnet wird
 
 ein Zustand der sich bei Anwendung der Iterationsfunktion nicht ändert
 
-### Was ist ein anziehender Fixpunkt?
+### Was ist ein anziehender (stabiler) Fixpunkt?
 
 ein Zustand zu dem ein System aus mehreren Startzuständen (in der Umgebung) strebt
 
-### Wie kann ein anziehender Fixpunkt identifiziert werden?
+### Wie kann ein anziehender (stabiler) Fixpunkt identifiziert werden?
 
 die Iterationsfunktion bildet einen Fixpunkt auf sich selbst ab und der Betrag der erste Ableitung
 der Iterationsfunktion am Fixpunkt ist $<1$
 
-### Wie kann ein abstoßender Fixpunkt identifiziert werden?
+### Was ist ein abstoßender (instabiler) Fixpunkt?
+
+ein Zustand bei dem das System bei jede kleinen Abweichung aus dem Zustand fortstrebt
+
+### Wie kann ein abstoßender (instabiler) Fixpunkt identifiziert werden?
 
 die Iterationsfunktion bildet einen Fixpunkt auf sich selbst ab und der Betrag der erste Ableitung
 der Iterationsfunktion am Fixpunkt ist $>1$
