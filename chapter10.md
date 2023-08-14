@@ -86,9 +86,9 @@ wie das logistische Ein-Spezies-Modell
 eine große Population von P beschleunigt das Wachstum von Q (positives Vorzeichen) aber eine große
 Population von Q beschränkt das Wachstum von P (negatives Vorzeichen) (oder andersherum)
 
-### Wie kann man Konkorrenz-Modelle an den Parametern erkennen?
+### Wie kann man Konkurrenz-Modelle an den Parametern erkennen?
 
-die Größe der jeweils anderen Population beschränkt das Wachstum
+die Größe der jeweils anderen Population beschränkt das Wachstum (negatives Vorzeichen)
 
 ### Was bedeuten negative, reellwertige Eigenwerte der Jakobi-Matrix im Zwei-Spezies-Modell?
 
