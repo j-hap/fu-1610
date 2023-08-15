@@ -429,9 +429,52 @@ eine Simulation, die nur zu Zeitpunkten simuliert wird, bei denen ein Ereignis s
 
 diskrete event simulation (diskrete Ereignissimulation)
 
+### Was zeichnet die diskrete Ereignissimulation aus?
+
+Zustand des simulierten Systems ändert sich nur zu bestimmten Zeitpunkten (Ereignissen), Ereignisse
+triggern ggf. Folgeereignisse zu denen sich das System wieder ändert und neue Ereignisse ausgelöst
+werden.
+
+### Welche Zeiten müssen bei der diskreten Ereginissimulation unterschieden werden?
+
+Simulationszeit vs. simulierte Zeit
+
+### Wie unterscheiden sich Simulationszeit und simulierte Zeit?
+
+die Simulationszeit beschreibt wie lang die Simulation in Realität läuft, die simulierte Zeit
+beschreibt die Zeitpunkte, die in der Simulation passieren
+
+### Was bedeutet es, wenn zwei Ereignisse kausal abhängig sind?
+
+tritt Ereignis $E_2$ nur nach Eintreten des Ereignis $E_1$ auf, ist $E_2$ von $E_1$ kausal abhängig
+
 ### Wofür steht die Abkürzung PDES?
 
 parallel diskrete event simulation (parallele diskrete Ereignissimulation)
+
+### Welche PDES Simulationsstrategien werden unterschieden?
+
+konservativ / optimistisch
+
+### Was ist der "Horizont" in der parallelen diskrete Ereignissimulation?
+
+werden zum Zeitpunkt $t_0$ (simulierte Zeit) mehrere Ereignisse simuliert, ist der Horizont der
+frühestmögliche Zeitpunkt $t_1$ eines Ereignisses, das kausal von den gerade simulierten abhängt
+
+### Was zeichnet die konservative PDES aus?
+
+Es werden nur so viele Ereignisse aus der Warteschlange entnommen, dass aus diesen generierte
+Ereignisse auf keinen Fall vor einem der simulierten Ereignisse eintreten und so die Kausalität
+gewahrt wird. Im schlechten Fall bedeutet das aber kein Parallelisierungspotential, weil immer nur
+ein Ereignis simuliert wird.
+
+### Was zeichnet die optimistische PDES aus?
+
+Es werden immer dem Parallelisierungsgrad entsprechend viele ($p$) Ereignisse simuliert. Triggert
+eines der simulierten Ereignisse neue Ereignisse, die eigentlich vor mindestens einem der $p$
+simulierten Ereignisse eintritt, muss der Schritt rückgängig gemacht und konservativ wiederholt
+werden (Mehraufwand). Bei geringer Gefahr der Kausalitäts-Verletzung ist die optimistische PDES
+schneller.
 
 ### Welche Datenstrukturen eigenen sich zur Modellierung der Warteschlange von Ereignissen bei der diskreten Ereignissimulation?
 
