@@ -194,7 +194,7 @@ wenn sie zyklenfrei ist
 
 ### Wie wird eine zulässige Disjunktivkantenbelegung konstruiert?
 
-- Teilauftrag starten, dessen Vorgänger beendet ist und deren benötigte Maschine frei ist
+- Teilauftrag starten, dessen Vorgänger beendet ist und dessen benötigte Maschine frei ist
 - mehrere Kandidaten bei einer Maschine: zufällige Auswahl
 
 ### Wie wird eine optimale Disjunktivkantenbelegung gefunden?
