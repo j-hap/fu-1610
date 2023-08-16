@@ -64,6 +64,10 @@ Kehrwert der mittleren (erwarteten) Zwischenankunftszeit
 eine Folge gleichartiger, zeitlich geordneter Vorgänge, deren Verteiltung im betrachteten Zeitraum
 nur von der Intervalllänge abhängt
 
+### Wofür steht die Abkürzung $iid$?
+
+independent, identically distributed
+
 ### Wie hängen Exponentialverteilung und Poisson-Prozess zusammen?
 
 Ein Poisson-Prozess zählt Ereignisse mit exponentialverteilter Zwischenankunftszeit. Die
