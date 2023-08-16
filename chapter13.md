@@ -150,7 +150,7 @@ Moleküldynamik
 
 Skalierung der Partikelgeschwindigkeiten, um die kinetische Energie konstant zu halten
 
-### Was sind reflektierenden Randbedingungen?
+### Was sind reflektierende Randbedingungen?
 
 in der Partikelsimulation können Partikel das Simulationsgebiet nicht verlassen, sondern prallen am Rand der Simulationsgebiets ab
 
