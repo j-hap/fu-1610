@@ -62,7 +62,7 @@ ein zweidimensionaler zellulärer Automat mit rechteckigen Zellen
 
 ### Welche Nachbarschaftsbeziehung kommt beim "Game Of Life" zum Einsatz?
 
-Moore-Nachbarschaft (gemeinsame Kante)
+Moore-Nachbarschaft (gemeinsame Ecke)
 
 ### Was sind die drei Regeln des "Game Of Life"
 
