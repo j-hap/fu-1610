@@ -88,8 +88,8 @@ transkritische Bifurkation
 - Iterationsfunktion einzeichnen
 - Ursprungsgerade mit Steigung 1 einzeichnen
 - Startpunkt auf Diagonale eintragen
-- vertikale durch Startpunkt mit Iterationsfunktion verschneiden
-- horizontale vom Schnittpunkt zur Diagonalen gibt nächsten Funktionswert
+- Vertikale durch Startpunkt mit Iterationsfunktion verschneiden
+- Horizontale vom Schnittpunkt zur Diagonalen gibt nächsten Funktionswert
 
 ### Was ist eine "superkritische Gabelbifurkation"?
 
