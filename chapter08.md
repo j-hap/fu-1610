@@ -69,7 +69,7 @@ Moore-Nachbarschaft (gemeinsame Kante)
 1. lebende Zelle mit <2 oder >3 lebenden Nachbarn stirb
 2. lebende Zelle mit 2 oder 3 lebenden Nachbarn lebt weiter
 3. tote Zelle mit genau 3 Nachbarn wird lebendig
-
+  
 (genau genommen sind Regeln 1 und 2 redundant)
 
 ### Was ist eine Zelle im Nagel-Schreckenberg-Modell?
