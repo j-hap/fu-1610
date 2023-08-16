@@ -116,7 +116,9 @@ länge des kritischen Pfades im zugehörigen Graphen
 
 ### Was ist die "Kritischer-Pfad-Methode"?
 
-Optimierung eines Zeitplans über Identifikation kritischer Pfade
+Methode, um in einem Zeitplan die Teilaufträge zu identifizieren, deren Verzögerung zur Verzögerung
+des Gesamtplans führt, der sog. kritische Pfad und die Gesamtfertigungszeit und möglichen Schlupf
+der Teilaufträge festzustellen
 
 ### Welche Diagramme kommen typischerweise bei  der "Kritischer-Pfad-Methode" zum Einsatz?
 
