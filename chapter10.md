@@ -47,7 +47,7 @@ $$ \dot{p}(t) = \lambda(p(t)) \cdot p(t) = (a-b \cdot p(t)) \cdot p(t) = ap(t) -
 ### Was ist ein Gleichgewichtspunkt in der Populationsdynamik?
 
 eine Populationsgröße, bei der die Änderung der Population auf 0 sinkt  
-allgemeiner: ein Gleichgewichtspunkt
+allgemeiner: ein Fixpunkt
 
 ### Wie viele Gleichgewichtspunkte hat das logistische Modell der Populationsdynamik?
 
