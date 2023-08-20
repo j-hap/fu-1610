@@ -67,7 +67,7 @@ besser zum Begriff, da das System bei diesen noch eine echte Dynamik aufweist.
 
 ### Was ist die logistische Abbildung?
 
-eine eindimensionale Iterationsfunktion, die zur Modellierung von Populationswachstum verwendet wird
+eine eindimensionale Iterationsfunktion, die zur Modellierung von Populationswachstum verwendet wird und chaotisches Verhalten aufweist
 $$ \Phi(x) = rx(1-x) $$
 
 ### Was ist eine Bifurkation?
