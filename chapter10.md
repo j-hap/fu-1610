@@ -102,3 +102,12 @@ abstoßender Gleichgewichtspunkt (Oszillation ums Gleichgewicht)
 
 ein zeitlicher Verlauf der Verteilungsfunktion der stochastischen Populationsgröße
 
+### Was ist das SIR-Modell?
+
+einen klassischen Ansatz zur Beschreibung der Ausbreitung von ansteckenden Krankheiten mit
+Immunitätsbildung
+
+### Wofür steht SIR?
+
+susceptible-infected-removed
+
