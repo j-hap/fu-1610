@@ -19,8 +19,9 @@ Handlungen, die ein Spieler ausführen kann
 - Gefangenendilemma
 - Kampf der Geschlechter
 
-### Was ist Gefangenendilemma?
+### Was ist das Gefangenendilemma?
 
+- Spiel der Spieltheorie
 - zwei Verbrecher werden gefasst
 - Schuld für einen Teil des Verbrechens ist bewiesen -> Mindeststrafe steht fest
 - Jeder Verbrecher kann schweigen oder den anderen verraten
