@@ -244,3 +244,8 @@ abhängigen Auftrags
 
 ein spezielles Job-Shop-Modell, wo die Bearbeitungsreihenfolge aller Teilaufträge an den Maschinen
 gleich ist
+
+### Was ist "List Scheduling" / ein "List Scheduler"?
+
+ein Greedy-Algorithmus zur Verteilung von Aufträgen auf Maschinen, der aus einer Liste den nächsten
+Job nimmt und auf die nächste freie Ressource verteilt
