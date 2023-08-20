@@ -140,7 +140,7 @@ Ausgleich von Verzögerungen von früheren Aufträgen
 Bearbeitungszeiten sind nicht mehr bekannt wie beim deterministischen Prozess-Scheduling, sondern
 eine stochastische Zufallsvariable mit bekannter Verteilung
 
-### Warum ist die Bestimmung der Verteilung der Gesamtfertigungszeit nicht praxistauglich?
+### Warum ist die Bestimmung der Verteilung der Gesamtfertigungszeit bei stochastischem Prozess-Scheduling nicht praxistauglich?
 
 Selbst bei diskreter Verteilung der Bearbeitungszeit der Einzelprozesse ergeben sich schnell zu
 viele mögliche Kombinationen, sodass der Aufwand schnell zu groß wird
