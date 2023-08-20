@@ -124,6 +124,11 @@ $$
 
 Verkehrsgleichung
 
+### Was ist das Verfahren von MacCormack?
+
+ein Diskretisierungsverfahren zweiter Ordnung für hyperbolische partielle Differentialgleichungen
+aus der Kategorie der Prädiktor-Korrektor-Verfahren
+
 ### Was ist ein Prädiktor-Korrektor-Verfahren?
 
 Mehrschrittverfahren in dem mit einem expliziten Verfahren ein Hilfspunkt zum nächsten Zeitpunkt
