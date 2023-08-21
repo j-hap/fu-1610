@@ -25,6 +25,11 @@ ergibt aber eine exponentielle Gleichung der Population über der Zeit
 
 $$ \dot{p}(t) = \lambda p(t) $$
 
+### Für welches Modell ist der Mathematiker Pierre-François Verhulst bekannt?
+
+- linearen Modells mit Sättigung der Populationsdynamik
+- logistische Abbildung
+
 ### Wie lautet die Differentialgleichung des linearen Modells mit Sättigung der Populationsdynamik?
 
 $$ \dot{p}(t) = \lambda_0 - \lambda_1 p(t) $$
@@ -104,7 +109,7 @@ ein zeitlicher Verlauf der Verteilungsfunktion der stochastischen Populationsgr�
 
 ### Was ist das SIR-Modell?
 
-einen klassischen Ansatz zur Beschreibung der Ausbreitung von ansteckenden Krankheiten mit
+ein klassischer Ansatz zur Beschreibung der Ausbreitung von ansteckenden Krankheiten mit
 Immunitätsbildung
 
 ### Wofür steht SIR?

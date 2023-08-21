@@ -182,3 +182,8 @@ Partikel können sich selbst beeinflussen, weil ihre virtuellen Kopien genau die
 ### Wie kann Partikelsimulation parallelisiert werden?
 
 Simulationsgebiet wird in Teilgebiete unterteilt, Nachbarn der Randzellen müssen beim benachbarten Prozess / Thread abgefragt werden
+
+### Was ist das N-Körper-Problem?
+
+ein physikalisches Problem zur Berechnung der Bewegung von Himmelskörpern auf Basis der
+Bewegungsgleichung und des gegenseitigen Einflusses durch Gravitation
