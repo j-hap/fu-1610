@@ -257,7 +257,7 @@ $$ f^*_S = c_S \cdot E(B_S) $$
   
 wobei $c_S$ der Grenzdurchsatz des Systems und $E(B_S)$ der Erwartungswert der Bedienzeit ist
 
-### Was ist ein stationären Grenzprozess?
+### Was ist ein stationärer Grenzprozess?
 
 Ein stationärer Grenzprozess stellt sich für einen stochastischen Prozesses ein, wenn die Verteilung
 der Zufallsvariablen des Prozesses für $t \rightarrow \infty$ konstant wird.
