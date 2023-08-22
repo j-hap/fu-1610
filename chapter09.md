@@ -372,11 +372,6 @@ alle sind periodisch
 
 der Prozess kann nicht zurück in Zustände geringerer Population als der aktuellen gelangen
 
-### Warum ist der reine Geburtsprozess nicht stationär?
-
-die Übergangswahrscheinlichkeit zur nächstgrößeren Population hängt von der Populationsgröße ab, die
-mit der Zeit wächst, also steigt auch die Übergangswahrscheinlichkeit mit der Zeit
-
 ### Was ist die stationäre Grenzverteilung einer Markov-Kette?
 
 Die stationäre Grenzverteilung gibt an mit welcher Wahrscheinlichkeit ein Zustand in einer
