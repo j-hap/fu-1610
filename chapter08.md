@@ -240,6 +240,9 @@ Beobachtungen
 
 - $\mathcal{O}(\vert V \vert ^2 + \vert E \vert)$ bei verketteter Liste / Array für $R$
 - $\mathcal{O}(\vert V \vert \cdot \log(V) + \vert E \vert)$ mit Fibbonaci-Heap für $R$
+  
+mit $\mathcal{O}(\vert E \vert) = \mathcal{O}(\vert V \vert ^2)$ für allgemeine Graphen und
+$\mathcal{O}(\vert E \vert) = \mathcal{O}(\vert V \vert)$ für Straßennetze
 
 ### Welcher Zusammenhang der Komplexität zwischen Knoten- und Kantenanzahl kann in Verkehrsnetzen angenommen werden?
 
