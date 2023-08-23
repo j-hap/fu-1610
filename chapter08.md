@@ -259,7 +259,8 @@ sucht uninformiert durch den Graphen ohne die Richtung des Ziels mit einzubezieh
 ### Was ist der $A^*$-Algorithmus?
 
 Erweiterung des Dijkstra Algorithmus um eine Heuristik, die die Restkosten zum Ziel für Randknoten
-abschätzen kann
+abschätzen kann. Mittels der Summe der Kosten zum Erreichen eines Randknoten und der Heuristik wird
+entschieden, welcher Knoten der nächste aktive ist.
 
 ### Was zeichnet eine zulässige Heuristik beim $A^*$-Algorithmus aus?
 

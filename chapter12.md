@@ -99,7 +99,7 @@ zu zwei Punkten zwischen denen das System oszilliert
 ### Warum ist die superkritische Gabelbifurkation "harmlos"?
 
 zwar ändert sich das Systemverhalten, allerdings führt eine leichte Änderung des Systemparameters
-auch nur zu einer leichten Änderung des verhaltens, weil die beiden Oszillationspunkte aus dem
+auch nur zu einer leichten Änderung des Verhaltens, weil die beiden Oszillationspunkte aus dem
 vorherigen Fixpunkt entstehen und sich erst mit weiter wachsendem Systemparameter davon weg bewegen
 
 ### Was ist eine "subkritische Gabelbifurkation"?

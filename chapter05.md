@@ -227,13 +227,15 @@ gemacht. Danach wird mit der Maschine mit der nächstkleineren Gesamtbelegungsze
 
 ### Wie funktioniert "Branch-and-Bound" beim Job-Scheduling?
 
-1|$r_j$|$L_{max}$ - Verfahren:
+Beispiel zur Optimierung von 1|$r_j$|$C_{max}$ Problem (eine Maschine, früheste Startzeit gegeben, makespan minimieren):
+
 Es wird jeder Job einmal als erster Job festgelegt und die minimale Fertigungszeit unter der Annahme
-unterbrechbarer / aufteilbarer Aufträge ermittelt (branch). Dies ist die untere Grenze für jede im
-Baum darunterliegende Reihenfolge (bound). In der nächsten Ebene wird der zweite Job festgelegt und
-wieder die untere Grenze ermittelt, wobei festgelegte Jobs nicht mehr als unterbrechbar / aufteilbar
-behandelt werden. So wird der Baum in die Tiefe aufgebaut, wobei Äste wegen größerer Grenzen
-vernachlässigt werden können.
+unterbrechbarer / aufteilbarer Aufträge ermittelt (preemptive EDD) (branch). Dies ist die untere
+Grenze für jede im Baum darunterliegende Reihenfolge (bound). In der nächsten Ebene wird der zweite
+Job festgelegt und wieder die untere Grenze ermittelt, wobei festgelegte Jobs nicht mehr als
+unterbrechbar / aufteilbar behandelt werden. So wird der Baum in die Tiefe aufgebaut, wobei auf
+einem Level nur an den Knoten Äste in der Tiefe aufgebaut werden, die die niedrigste Untergrenze
+haben.
 
 ### Wie können im Job-Shop-Modell Abhängigkeiten von Aufträgen untereinander modelliert werden?
 
