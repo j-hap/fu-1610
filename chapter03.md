@@ -54,8 +54,13 @@ Auszahlungsfunktion, die gewählte Strategien (aller Spieler) auf eine reele Zah
 
 ### Was ist die Nutzenmatrix?
 
-Darstellung der Werte der Auszahlungsfunktion beider Spieler als Tupel in einer Matrix, die alle
+Darstellung der Werte der Auszahlungsfunktion eines Spielers in einer Matrix, die alle
 Strategiekombinationen beinhaltet (auch: Auszahlungsmatrix)
+
+### Was ist eine Bimatrix (Nutzenmatrix)?
+
+Die Nutzenmatrizen von zwei Spielern können in einer Bimatrix kombiniert werden, jeder Eintrag der
+Matrix ist dann ein Tupel.
 
 ### Woher stammt die Bezeichnungs "Zeilenspieler" und "Spaltenspieler"?
 
